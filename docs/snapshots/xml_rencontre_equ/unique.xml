@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <tour>
+        <libelle>Poule 2 - tour n°1 du 26/09/2025</libelle>
+        <equa>Chateaubernard 3</equa>
+        <equb>Vars EP 1</equb>
+        <scorea>7</scorea>
+        <scoreb>7</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130943&is_retour=0&phase=1&res_1=7&res_2=7&equip_1=Chateaubernard+3&equip_2=Vars+EP+1&equip_id1=13360&equip_id2=306&clubnum_1=10160044&clubnum_2=10160197]]></lien>
+        <dateprevue>26/09/2025</dateprevue>
+        <datereelle>26/09/2025</datereelle>
+        <ncluba>10160044</ncluba>
+        <nclubb>10160197</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°1 du 26/09/2025</libelle>
+        <equa>Magnac 1</equa>
+        <equb>Mansle 1</equb>
+        <scorea>8</scorea>
+        <scoreb>6</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130944&is_retour=0&phase=1&res_1=8&res_2=6&equip_1=Magnac+1&equip_2=Mansle+1&equip_id1=685&equip_id2=8845&clubnum_1=10160059&clubnum_2=10160003]]></lien>
+        <dateprevue>26/09/2025</dateprevue>
+        <datereelle>26/09/2025</datereelle>
+        <ncluba>10160059</ncluba>
+        <nclubb>10160003</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°1 du 26/09/2025</libelle>
+        <equa>Baignes 1</equa>
+        <equb>Gond Pontouvre 4</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130945&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Baignes+1&equip_2=Gond+Pontouvre+4&equip_id1=690&equip_id2=687&clubnum_1=10160069&clubnum_2=10160024]]></lien>
+        <dateprevue>26/09/2025</dateprevue>
+        <datereelle>26/09/2025</datereelle>
+        <ncluba>10160069</ncluba>
+        <nclubb>10160024</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°1 du 26/09/2025</libelle>
+        <equa>Chateauneuf TTC 1</equa>
+        <equb>Cognac UA 3</equb>
+        <scorea>10</scorea>
+        <scoreb>4</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130946&is_retour=0&phase=1&res_1=10&res_2=4&equip_1=Chateauneuf+TTC+1&equip_2=Cognac+UA+3&equip_id1=10998&equip_id2=13364&clubnum_1=10160051&clubnum_2=10160040]]></lien>
+        <dateprevue>26/09/2025</dateprevue>
+        <datereelle>26/09/2025</datereelle>
+        <ncluba>10160051</ncluba>
+        <nclubb>10160040</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°2 du 03/10/2025</libelle>
+        <equa>Mansle 1</equa>
+        <equb>Chateaubernard 3</equb>
+        <scorea>8</scorea>
+        <scoreb>6</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130947&is_retour=0&phase=1&res_1=8&res_2=6&equip_1=Mansle+1&equip_2=Chateaubernard+3&equip_id1=8845&equip_id2=13360&clubnum_1=10160003&clubnum_2=10160044]]></lien>
+        <dateprevue>03/10/2025</dateprevue>
+        <datereelle>03/10/2025</datereelle>
+        <ncluba>10160003</ncluba>
+        <nclubb>10160044</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°2 du 03/10/2025</libelle>
+        <equa>Gond Pontouvre 4</equa>
+        <equb>Magnac 1</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130948&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Gond+Pontouvre+4&equip_2=Magnac+1&equip_id1=687&equip_id2=685&clubnum_1=10160024&clubnum_2=10160059]]></lien>
+        <dateprevue>03/10/2025</dateprevue>
+        <datereelle>03/10/2025</datereelle>
+        <ncluba>10160024</ncluba>
+        <nclubb>10160059</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°2 du 03/10/2025</libelle>
+        <equa>Cognac UA 3</equa>
+        <equb>Baignes 1</equb>
+        <scorea>7</scorea>
+        <scoreb>7</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130949&is_retour=0&phase=1&res_1=7&res_2=7&equip_1=Cognac+UA+3&equip_2=Baignes+1&equip_id1=13364&equip_id2=690&clubnum_1=10160040&clubnum_2=10160069]]></lien>
+        <dateprevue>03/10/2025</dateprevue>
+        <datereelle>03/10/2025</datereelle>
+        <ncluba>10160040</ncluba>
+        <nclubb>10160069</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°2 du 03/10/2025</libelle>
+        <equa>Vars EP 1</equa>
+        <equb>Chateauneuf TTC 1</equb>
+        <scorea>7</scorea>
+        <scoreb>7</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130950&is_retour=0&phase=1&res_1=7&res_2=7&equip_1=Vars+EP+1&equip_2=Chateauneuf+TTC+1&equip_id1=306&equip_id2=10998&clubnum_1=10160197&clubnum_2=10160051]]></lien>
+        <dateprevue>03/10/2025</dateprevue>
+        <datereelle>03/10/2025</datereelle>
+        <ncluba>10160197</ncluba>
+        <nclubb>10160051</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°3 du 10/10/2025</libelle>
+        <equa>Chateaubernard 3</equa>
+        <equb>Gond Pontouvre 4</equb>
+        <scorea>10</scorea>
+        <scoreb>4</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130951&is_retour=0&phase=1&res_1=10&res_2=4&equip_1=Chateaubernard+3&equip_2=Gond+Pontouvre+4&equip_id1=13360&equip_id2=687&clubnum_1=10160044&clubnum_2=10160024]]></lien>
+        <dateprevue>10/10/2025</dateprevue>
+        <datereelle>10/10/2025</datereelle>
+        <ncluba>10160044</ncluba>
+        <nclubb>10160024</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°3 du 10/10/2025</libelle>
+        <equa>Magnac 1</equa>
+        <equb>Cognac UA 3</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130952&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Magnac+1&equip_2=Cognac+UA+3&equip_id1=685&equip_id2=13364&clubnum_1=10160059&clubnum_2=10160040]]></lien>
+        <dateprevue>10/10/2025</dateprevue>
+        <datereelle>10/10/2025</datereelle>
+        <ncluba>10160059</ncluba>
+        <nclubb>10160040</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°3 du 10/10/2025</libelle>
+        <equa>Baignes 1</equa>
+        <equb>Chateauneuf TTC 1</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130953&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Baignes+1&equip_2=Chateauneuf+TTC+1&equip_id1=690&equip_id2=10998&clubnum_1=10160069&clubnum_2=10160051]]></lien>
+        <dateprevue>10/10/2025</dateprevue>
+        <datereelle>10/10/2025</datereelle>
+        <ncluba>10160069</ncluba>
+        <nclubb>10160051</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°3 du 10/10/2025</libelle>
+        <equa>Vars EP 1</equa>
+        <equb>Mansle 1</equb>
+        <scorea>10</scorea>
+        <scoreb>4</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130954&is_retour=0&phase=1&res_1=10&res_2=4&equip_1=Vars+EP+1&equip_2=Mansle+1&equip_id1=306&equip_id2=8845&clubnum_1=10160197&clubnum_2=10160003]]></lien>
+        <dateprevue>10/10/2025</dateprevue>
+        <datereelle>10/10/2025</datereelle>
+        <ncluba>10160197</ncluba>
+        <nclubb>10160003</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°4 du 14/11/2025</libelle>
+        <equa>Cognac UA 3</equa>
+        <equb>Chateaubernard 3</equb>
+        <scorea>3</scorea>
+        <scoreb>11</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130955&is_retour=0&phase=1&res_1=3&res_2=11&equip_1=Cognac+UA+3&equip_2=Chateaubernard+3&equip_id1=13364&equip_id2=13360&clubnum_1=10160040&clubnum_2=10160044]]></lien>
+        <dateprevue>14/11/2025</dateprevue>
+        <datereelle>14/11/2025</datereelle>
+        <ncluba>10160040</ncluba>
+        <nclubb>10160044</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°4 du 14/11/2025</libelle>
+        <equa>Chateauneuf TTC 1</equa>
+        <equb>Magnac 1</equb>
+        <scorea>11</scorea>
+        <scoreb>3</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130956&is_retour=0&phase=1&res_1=11&res_2=3&equip_1=Chateauneuf+TTC+1&equip_2=Magnac+1&equip_id1=10998&equip_id2=685&clubnum_1=10160051&clubnum_2=10160059]]></lien>
+        <dateprevue>14/11/2025</dateprevue>
+        <datereelle>14/11/2025</datereelle>
+        <ncluba>10160051</ncluba>
+        <nclubb>10160059</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°4 du 14/11/2025</libelle>
+        <equa>Baignes 1</equa>
+        <equb>Vars EP 1</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130957&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Baignes+1&equip_2=Vars+EP+1&equip_id1=690&equip_id2=306&clubnum_1=10160069&clubnum_2=10160197]]></lien>
+        <dateprevue>14/11/2025</dateprevue>
+        <datereelle>14/11/2025</datereelle>
+        <ncluba>10160069</ncluba>
+        <nclubb>10160197</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°4 du 14/11/2025</libelle>
+        <equa>Gond Pontouvre 4</equa>
+        <equb>Mansle 1</equb>
+        <scorea>8</scorea>
+        <scoreb>6</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130958&is_retour=0&phase=1&res_1=8&res_2=6&equip_1=Gond+Pontouvre+4&equip_2=Mansle+1&equip_id1=687&equip_id2=8845&clubnum_1=10160024&clubnum_2=10160003]]></lien>
+        <dateprevue>14/11/2025</dateprevue>
+        <datereelle>14/11/2025</datereelle>
+        <ncluba>10160024</ncluba>
+        <nclubb>10160003</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°5 du 28/11/2025</libelle>
+        <equa>Chateaubernard 3</equa>
+        <equb>Chateauneuf TTC 1</equb>
+        <scorea>5</scorea>
+        <scoreb>9</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130959&is_retour=0&phase=1&res_1=5&res_2=9&equip_1=Chateaubernard+3&equip_2=Chateauneuf+TTC+1&equip_id1=13360&equip_id2=10998&clubnum_1=10160044&clubnum_2=10160051]]></lien>
+        <dateprevue>28/11/2025</dateprevue>
+        <datereelle>28/11/2025</datereelle>
+        <ncluba>10160044</ncluba>
+        <nclubb>10160051</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°5 du 28/11/2025</libelle>
+        <equa>Magnac 1</equa>
+        <equb>Baignes 1</equb>
+        <scorea>6</scorea>
+        <scoreb>8</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130960&is_retour=0&phase=1&res_1=6&res_2=8&equip_1=Magnac+1&equip_2=Baignes+1&equip_id1=685&equip_id2=690&clubnum_1=10160059&clubnum_2=10160069]]></lien>
+        <dateprevue>28/11/2025</dateprevue>
+        <datereelle>28/11/2025</datereelle>
+        <ncluba>10160059</ncluba>
+        <nclubb>10160069</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°5 du 28/11/2025</libelle>
+        <equa>Mansle 1</equa>
+        <equb>Cognac UA 3</equb>
+        <scorea>10</scorea>
+        <scoreb>4</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130961&is_retour=0&phase=1&res_1=10&res_2=4&equip_1=Mansle+1&equip_2=Cognac+UA+3&equip_id1=8845&equip_id2=13364&clubnum_1=10160003&clubnum_2=10160040]]></lien>
+        <dateprevue>28/11/2025</dateprevue>
+        <datereelle>28/11/2025</datereelle>
+        <ncluba>10160003</ncluba>
+        <nclubb>10160040</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°5 du 28/11/2025</libelle>
+        <equa>Vars EP 1</equa>
+        <equb>Gond Pontouvre 4</equb>
+        <scorea>9</scorea>
+        <scoreb>5</scoreb>
+        <lien>
+            <![CDATA[renc_id=5130962&is_retour=0&phase=1&res_1=9&res_2=5&equip_1=Vars+EP+1&equip_2=Gond+Pontouvre+4&equip_id1=306&equip_id2=687&clubnum_1=10160197&clubnum_2=10160024]]></lien>
+        <dateprevue>28/11/2025</dateprevue>
+        <datereelle>28/11/2025</datereelle>
+        <ncluba>10160197</ncluba>
+        <nclubb>10160024</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°6 du 12/12/2025</libelle>
+        <equa>Baignes 1</equa>
+        <equb>Chateaubernard 3</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130963&is_retour=0&phase=1&res_1=&res_2=&equip_1=Baignes+1&equip_2=Chateaubernard+3&equip_id1=690&equip_id2=13360&clubnum_1=10160069&clubnum_2=10160044]]></lien>
+        <dateprevue>12/12/2025</dateprevue>
+        <datereelle>12/12/2025</datereelle>
+        <ncluba>10160069</ncluba>
+        <nclubb>10160044</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°6 du 12/12/2025</libelle>
+        <equa>Magnac 1</equa>
+        <equb>Vars EP 1</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130964&is_retour=0&phase=1&res_1=&res_2=&equip_1=Magnac+1&equip_2=Vars+EP+1&equip_id1=685&equip_id2=306&clubnum_1=10160059&clubnum_2=10160197]]></lien>
+        <dateprevue>12/12/2025</dateprevue>
+        <datereelle>12/12/2025</datereelle>
+        <ncluba>10160059</ncluba>
+        <nclubb>10160197</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°6 du 12/12/2025</libelle>
+        <equa>Chateauneuf TTC 1</equa>
+        <equb>Mansle 1</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130965&is_retour=0&phase=1&res_1=&res_2=&equip_1=Chateauneuf+TTC+1&equip_2=Mansle+1&equip_id1=10998&equip_id2=8845&clubnum_1=10160051&clubnum_2=10160003]]></lien>
+        <dateprevue>12/12/2025</dateprevue>
+        <datereelle>12/12/2025</datereelle>
+        <ncluba>10160051</ncluba>
+        <nclubb>10160003</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°6 du 12/12/2025</libelle>
+        <equa>Cognac UA 3</equa>
+        <equb>Gond Pontouvre 4</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130966&is_retour=0&phase=1&res_1=&res_2=&equip_1=Cognac+UA+3&equip_2=Gond+Pontouvre+4&equip_id1=13364&equip_id2=687&clubnum_1=10160040&clubnum_2=10160024]]></lien>
+        <dateprevue>12/12/2025</dateprevue>
+        <datereelle>12/12/2025</datereelle>
+        <ncluba>10160040</ncluba>
+        <nclubb>10160024</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°7 du 19/12/2025</libelle>
+        <equa>Chateaubernard 3</equa>
+        <equb>Magnac 1</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130967&is_retour=0&phase=1&res_1=&res_2=&equip_1=Chateaubernard+3&equip_2=Magnac+1&equip_id1=13360&equip_id2=685&clubnum_1=10160044&clubnum_2=10160059]]></lien>
+        <dateprevue>19/12/2025</dateprevue>
+        <datereelle>19/12/2025</datereelle>
+        <ncluba>10160044</ncluba>
+        <nclubb>10160059</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°7 du 19/12/2025</libelle>
+        <equa>Mansle 1</equa>
+        <equb>Baignes 1</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130968&is_retour=0&phase=1&res_1=&res_2=&equip_1=Mansle+1&equip_2=Baignes+1&equip_id1=8845&equip_id2=690&clubnum_1=10160003&clubnum_2=10160069]]></lien>
+        <dateprevue>19/12/2025</dateprevue>
+        <datereelle>19/12/2025</datereelle>
+        <ncluba>10160003</ncluba>
+        <nclubb>10160069</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°7 du 19/12/2025</libelle>
+        <equa>Gond Pontouvre 4</equa>
+        <equb>Chateauneuf TTC 1</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130969&is_retour=0&phase=1&res_1=&res_2=&equip_1=Gond+Pontouvre+4&equip_2=Chateauneuf+TTC+1&equip_id1=687&equip_id2=10998&clubnum_1=10160024&clubnum_2=10160051]]></lien>
+        <dateprevue>19/12/2025</dateprevue>
+        <datereelle>19/12/2025</datereelle>
+        <ncluba>10160024</ncluba>
+        <nclubb>10160051</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+    <tour>
+        <libelle>Poule 2 - tour n°7 du 19/12/2025</libelle>
+        <equa>Vars EP 1</equa>
+        <equb>Cognac UA 3</equb>
+        <scorea/>
+        <scoreb/>
+        <lien>
+            <![CDATA[renc_id=5130970&is_retour=0&phase=1&res_1=&res_2=&equip_1=Vars+EP+1&equip_2=Cognac+UA+3&equip_id1=306&equip_id2=13364&clubnum_1=10160197&clubnum_2=10160040]]></lien>
+        <dateprevue>19/12/2025</dateprevue>
+        <datereelle>19/12/2025</datereelle>
+        <ncluba>10160197</ncluba>
+        <nclubb>10160040</nclubb>
+        <poule>1139716</poule>
+        <live>0</live>
+    </tour>
+</liste>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <licence>
+        <idlicence>1631031</idlicence>
+        <licence>1616528</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <numclub>10160051</numclub>
+        <nomclub>Chateauneuf TT Castelnovien</nomclub>
+        <sexe>M</sexe>
+        <type>T</type>
+        <certif>U</certif>
+        <validation>20/09/2025</validation>
+        <echelon></echelon>
+        <place/>
+        <point>539</point>
+        <cat>B2</cat>
+        <pointm>681.25</pointm>
+        <apointm>615.25</apointm>
+        <initm>539.</initm>
+        <mutation/>
+        <natio>F</natio>
+        <arb/>
+        <ja/>
+        <tech/>
+    </licence>
+</liste>

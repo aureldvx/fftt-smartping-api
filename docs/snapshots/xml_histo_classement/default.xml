@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2012 / 2013</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2012 / 2013</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2013 / 2014</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2013 / 2014</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2014 / 2015</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>503</point>
+        <saison>Saison 2014 / 2015</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>500</point>
+        <saison>Saison 2015 / 2016</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>524</point>
+        <saison>Saison 2015 / 2016</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>613</point>
+        <saison>Saison 2016 / 2017</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>674</point>
+        <saison>Saison 2016 / 2017</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>779</point>
+        <saison>Saison 2017 / 2018</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>950</point>
+        <saison>Saison 2017 / 2018</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1204</point>
+        <saison>Saison 2018 / 2019</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1368</point>
+        <saison>Saison 2018 / 2019</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1477</point>
+        <saison>Saison 2019 / 2020</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1657</point>
+        <saison>Saison 2019 / 2020</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1654</point>
+        <saison>Saison 2020 / 2021</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1654</point>
+        <saison>Saison 2020 / 2021</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1696</point>
+        <saison>Saison 2021 / 2022</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon></echelon>
+        <place></place>
+        <point>1872</point>
+        <saison>Saison 2021 / 2022</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>985</place>
+        <point>2044</point>
+        <saison>Saison 2022 / 2023</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>619</place>
+        <point>2194</point>
+        <saison>Saison 2022 / 2023</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>623</place>
+        <point>2208</point>
+        <saison>Saison 2023 / 2024</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>564</place>
+        <point>2220</point>
+        <saison>Saison 2023 / 2024</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>334</place>
+        <point>2397</point>
+        <saison>Saison 2024 / 2025</saison>
+        <phase>1</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>302</place>
+        <point>2406</point>
+        <saison>Saison 2024 / 2025</saison>
+        <phase>2</phase>
+    </histo>
+    <histo>
+        <echelon>N</echelon>
+        <place>240</place>
+        <point>2488</point>
+        <saison>Saison 2025 / 2026</saison>
+        <phase>1</phase>
+    </histo>
+</liste>

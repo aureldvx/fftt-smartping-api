@@ -1,0 +1,30 @@
+### [xml_liste_joueur] Rechercher des joueurs provenant de la base classement par leur club
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160051
+
+>>! ../snapshots/xml_liste_joueur/par_club.xml
+
+### [xml_liste_joueur] Rechercher des joueurs provenant de la base classement par leur nom
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &nom=devaux
+
+>>! ../snapshots/xml_liste_joueur/par_nom.xml
+
+### [xml_liste_joueur] Rechercher des joueurs provenant de la base classement par leur nom et prénom
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &nom=devaux
+  &prenom=jimmy
+
+>>! ../snapshots/xml_liste_joueur/par_nom_prenom.xml

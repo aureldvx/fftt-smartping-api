@@ -1,0 +1,19 @@
+### [xml_licence] Renvoie un joueur provenant de la base SPID
+GET https://www.fftt.com/mobile/pxml/xml_licence.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1610533
+
+>>! ../snapshots/xml_licence/default.xml
+
+### [xml_licence] Renvoie un joueur numéroté provenant de la base SPID
+GET https://www.fftt.com/mobile/pxml/xml_licence.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=147115
+
+>>! ../snapshots/xml_licence/numerote.xml

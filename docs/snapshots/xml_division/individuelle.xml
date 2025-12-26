@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <division>
+        <iddivision>196680</iddivision>
+        <libelle>FED_N1_Seniors Messieurs B (M)</libelle>
+    </division>
+    <division>
+        <iddivision>196681</iddivision>
+        <libelle>FED_N1_Juniors Garçons A (M)</libelle>
+    </division>
+    <division>
+        <iddivision>196682</iddivision>
+        <libelle>FED_N1_Cadets A (M)</libelle>
+    </division>
+    <division>
+        <iddivision>196683</iddivision>
+        <libelle>FED_N1_Juniors Garçons B (M)</libelle>
+    </division>
+    <division>
+        <iddivision>196684</iddivision>
+        <libelle>FED_N1_Cadets B (M)</libelle>
+    </division>
+    <division>
+        <iddivision>196685</iddivision>
+        <libelle>FED_N1_Seniors Dames A (F)</libelle>
+    </division>
+    <division>
+        <iddivision>196686</iddivision>
+        <libelle>FED_N1_Cadettes A (F)</libelle>
+    </division>
+    <division>
+        <iddivision>196687</iddivision>
+        <libelle>FED_N1_Juniors Filles B (F)</libelle>
+    </division>
+    <division>
+        <iddivision>196688</iddivision>
+        <libelle>FED_N1_Cadettes B (F)</libelle>
+    </division>
+    <division>
+        <iddivision>197296</iddivision>
+        <libelle>FED_N1_Seniors Messieurs A (M)</libelle>
+    </division>
+    <division>
+        <iddivision>197353</iddivision>
+        <libelle>FED_N1_Seniors Dames B (F)</libelle>
+    </division>
+    <division>
+        <iddivision>197376</iddivision>
+        <libelle>FED_N1_Juniors Filles A (F)</libelle>
+    </division>
+</liste>

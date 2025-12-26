@@ -1,0 +1,21 @@
+  ### [xml_epreuve] Renvoie une liste des épreuves par équipes pour un organisme
+GET https://www.fftt.com/mobile/pxml/xml_epreuve.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &organisme=131
+  &type=E
+
+>>! ../snapshots/xml_epreuve/par_equipes.xml
+
+### xml_epreuve : Renvoie une liste des épreuves individuelles pour un organisme
+GET https://www.fftt.com/mobile/pxml/xml_epreuve.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &organisme=131
+  &type=I
+
+>>! ../snapshots/xml_epreuve/individuelles.xml

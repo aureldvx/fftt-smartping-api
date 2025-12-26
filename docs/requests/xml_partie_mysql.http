@@ -1,0 +1,19 @@
+### [xml_partie_mysql] Récupérer la liste des parties d’un joueur de la base classement avec adversaires numérotés
+GET https://www.fftt.com/mobile/pxml/xml_partie_mysql.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=3338295
+
+>>! ../snapshots/xml_partie_mysql/numerotes.xml
+
+### [xml_partie_mysql] Récupérer la liste des parties d’un joueur de la base classement
+GET https://www.fftt.com/mobile/pxml/xml_partie_mysql.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1616528
+
+>>! ../snapshots/xml_partie_mysql/default.xml

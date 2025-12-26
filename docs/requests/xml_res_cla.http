@@ -1,0 +1,19 @@
+### [xml_res_cla] Récupère le classement général d’une division du critérium « nouvelle formule » (joueurs numérotés)
+GET https://www.fftt.com/mobile/pxml/xml_res_cla.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &res_division=196680
+
+>>! ../snapshots/xml_res_cla/numerote.xml
+
+### [xml_res_cla] Récupère le classement général d’une division du critérium « nouvelle formule »
+GET https://www.fftt.com/mobile/pxml/xml_res_cla.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &res_division=197353
+
+>>! ../snapshots/xml_res_cla/default.xml

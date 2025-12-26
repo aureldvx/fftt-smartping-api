@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <club>
+        <idclub>12751412</idclub>
+        <numero>08751412</numero>
+        <nom>A S VIETNAM</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751058</idclub>
+        <numero>08751058</numero>
+        <nom>AMICALE MANIN SPORTS PARIS-EST</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751177</idclub>
+        <numero>08751177</numero>
+        <nom>AP 17</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750100</idclub>
+        <numero>08750100</numero>
+        <nom>APSAP PARIS</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750117</idclub>
+        <numero>08750117</numero>
+        <nom>AS BANQUE DE FRANCE</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>40000380</idclub>
+        <numero>08751450</numero>
+        <nom>AS FFTT</nom>
+        <validation>03/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12751265</idclub>
+        <numero>08751265</numero>
+        <nom>AS PONGISTES 8eme</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750400</idclub>
+        <numero>08750400</numero>
+        <nom>AS RUSSE</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750292</idclub>
+        <numero>08750292</numero>
+        <nom>ASC BNP PARIBAS</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12750153</idclub>
+        <numero>08750153</numero>
+        <nom>ASPTT GRAND PARIS</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12751371</idclub>
+        <numero>08751371</numero>
+        <nom>Assoc. Patronage Sainte Melanie</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751260</idclub>
+        <numero>08751260</numero>
+        <nom>ASSOC.TENNIS DE TABLE PARIS XVe</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>40001271</idclub>
+        <numero>08751457</numero>
+        <nom>ASSOCIATION LIN NAM</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>40001479</idclub>
+        <numero>08751460</numero>
+        <nom>Association Sportive New SFR</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12751271</idclub>
+        <numero>08751271</numero>
+        <nom>CPS 10eme</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751231</idclub>
+        <numero>08751231</numero>
+        <nom>CSLG KELLERMANN</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750007</idclub>
+        <numero>08750007</numero>
+        <nom>CSMF PARIS TT</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>M</typeclub>
+    </club>
+    <club>
+        <idclub>12750487</idclub>
+        <numero>08750487</numero>
+        <nom>EP 15</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750074</idclub>
+        <numero>08750074</numero>
+        <nom>ESPERANCE REUILLY</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750064</idclub>
+        <numero>08750064</numero>
+        <nom>GENERALI SPORT ET CULTURE</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>40001519</idclub>
+        <numero>08921524</numero>
+        <nom>INSEE PARIS CLUB</nom>
+        <validation>13/08/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12750249</idclub>
+        <numero>08750249</numero>
+        <nom>J A M PARIS 14e</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750120</idclub>
+        <numero>08750120</numero>
+        <nom>JUMP</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>40001455</idclub>
+        <numero>08751459</numero>
+        <nom>LEPIC POPULAIRE</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750209</idclub>
+        <numero>08750209</numero>
+        <nom>NATIXIS BRED</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>C</typeclub>
+    </club>
+    <club>
+        <idclub>12751163</idclub>
+        <numero>08751163</numero>
+        <nom>PARIS 13 TENNIS DE TABLE</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751124</idclub>
+        <numero>08751124</numero>
+        <nom>PARIS IX ATT</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>40001059</idclub>
+        <numero>08751456</numero>
+        <nom>PING PARIS 14</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751061</idclub>
+        <numero>08751061</numero>
+        <nom>SPORTING PARIS 20 TT</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>40000820</idclub>
+        <numero>08751453</numero>
+        <nom>TENNIS DE TABLE PARIS 16</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751423</idclub>
+        <numero>08751423</numero>
+        <nom>TENNIS DE TABLE PLUS</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751445</idclub>
+        <numero>08751445</numero>
+        <nom>U S CURIAL CAMBRAI</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12750141</idclub>
+        <numero>08750141</numero>
+        <nom>U S METRO</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12751249</idclub>
+        <numero>08751249</numero>
+        <nom>US 2 PARIS</nom>
+        <validation>01/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+    <club>
+        <idclub>12770988</idclub>
+        <numero>08770988</numero>
+        <nom>USM VILLEPARISIS TT</nom>
+        <validation>03/07/2025</validation>
+        <typeclub>L</typeclub>
+    </club>
+</liste>

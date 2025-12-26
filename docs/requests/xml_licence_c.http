@@ -1,0 +1,21 @@
+### [xml_licence_c] Récupérer une liste de joueurs provenant de la base SPID + base classement
+# Réservé à une utilisation exclusive de GIRPE (autorisation spéciale nécessaire)
+GET https://www.fftt.com/mobile/pxml/xml_licence_c.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160051
+
+>>! ../snapshots/xml_licence_c/club.xml
+
+### [xml_licence_c] Récupérer un joueur provenant de la base SPID + base classement
+# Réservé à une utilisation exclusive de GIRPE (autorisation spéciale nécessaire)
+GET https://www.fftt.com/mobile/pxml/xml_licence_c.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1610533
+
+>>! ../snapshots/xml_licence_c/joueur.xml

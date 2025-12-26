@@ -1,0 +1,23 @@
+### [xml_division] Renvoie une liste des divisions pour une épreuve par équipes
+GET https://www.fftt.com/mobile/pxml/xml_division.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &organisme=1
+  &epreuve=15954
+  &type=E
+
+>>! ../snapshots/xml_division/par_equipes.xml
+
+### [xml_division] Renvoie une liste des divisions pour une épreuve individuelle
+GET https://www.fftt.com/mobile/pxml/xml_division.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &organisme=1
+  &epreuve=15953
+  &type=I
+
+>>! ../snapshots/xml_division/individuelle.xml

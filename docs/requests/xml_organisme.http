@@ -1,0 +1,39 @@
+### [xml_organisme] Récupérer la liste des organismes de type Fédération
+GET https://www.fftt.com/mobile/pxml/xml_organisme.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &type=F
+
+>>! ../snapshots/xml_organisme/federation.xml
+
+### [xml_organisme] Récupérer la liste des organismes de type Zone
+GET https://www.fftt.com/mobile/pxml/xml_organisme.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &type=Z
+
+>>! ../snapshots/xml_organisme/zones.xml
+
+### [xml_organisme] Récupérer la liste des organismes de type Ligue
+GET https://www.fftt.com/mobile/pxml/xml_organisme.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &type=L
+
+>>! ../snapshots/xml_organisme/ligues.xml
+
+### [xml_organisme] Récupérer la liste des organismes de type Département
+GET https://www.fftt.com/mobile/pxml/xml_organisme.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &type=D
+
+>>! ../snapshots/xml_organisme/departements.xml

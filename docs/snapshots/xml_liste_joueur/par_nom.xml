@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <joueur>
+        <licence>552494</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>PONT A MOUSSON A.S.T.T.</club>
+        <nclub>06540128</nclub>
+        <clast>9</clast>
+    </joueur>
+    <joueur>
+        <licence>5984693</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>GUESNAIN ATT</club>
+        <nclub>07590332</nclub>
+        <clast>14</clast>
+    </joueur>
+    <joueur>
+        <licence>3550776</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>FREMUR PONGISTE</club>
+        <nclub>03350221</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>2510889</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ASC MATHAY</club>
+        <nclub>02250205</nclub>
+        <clast>7</clast>
+    </joueur>
+    <joueur>
+        <licence>1610533</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Chateauneuf TT Castelnovi</club>
+        <nclub>10160051</nclub>
+        <clast>11</clast>
+    </joueur>
+    <joueur>
+        <licence>59131810</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>VILLENEUVE D'ASCQ FOS</club>
+        <nclub>07590068</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7890019</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>PLAISIROIS CP</club>
+        <nclub>08780905</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>6953951</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>FR SOUZY</club>
+        <nclub>01690156</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>763340</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CE CHEVRON SPORTS</club>
+        <nclub>09760082</nclub>
+        <clast>9</clast>
+    </joueur>
+    <joueur>
+        <licence>5984692</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>GUESNAIN ATT</club>
+        <nclub>07590332</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7632655</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>US C BOIS GUILLAUME</club>
+        <nclub>09760331</nclub>
+        <clast>12</clast>
+    </joueur>
+    <joueur>
+        <licence>7890151</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>BONNIERES STTB</club>
+        <nclub>08781413</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>5439434</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>PONT A MOUSSON A.S.T.T.</club>
+        <nclub>06540128</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>601821</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>LONGUEIL TT</club>
+        <nclub>07600088</nclub>
+        <clast>10</clast>
+    </joueur>
+    <joueur>
+        <licence>638653</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ATT DU BREUIL</club>
+        <nclub>02710048</nclub>
+        <clast>8</clast>
+    </joueur>
+    <joueur>
+        <licence>2725250</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>US GRAVIGNY TT</club>
+        <nclub>09270139</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>8023359</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>AMIENS STT</club>
+        <nclub>07800001</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>59122152</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>BRUILLE CTT</club>
+        <nclub>07590231</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>59133711</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>BAVAY TT</club>
+        <nclub>07590363</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>6913132</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Entente ASS-ASC-TT CHAZEL</club>
+        <nclub>01420165</nclub>
+        <clast>6</clast>
+    </joueur>
+    <joueur>
+        <licence>6954971</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>TASSIN CLUB PONGISTE</club>
+        <nclub>01690181</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>191258</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ENTENTE BASSES MONEDIERES</club>
+        <nclub>10190075</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>147115</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Amicale Pongiste de Ouist</club>
+        <nclub>09140055</nclub>
+        <clast>N268</clast>
+    </joueur>
+    <joueur>
+        <licence>3551618</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>FREMUR PONGISTE</club>
+        <nclub>03350221</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>5987175</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>GRANDE-SYNTHE O TT</club>
+        <nclub>07590063</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>4220982</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Entente ASS-ASC-TT CHAZEL</club>
+        <nclub>01420165</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>8016743</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>EPPEVILLOIS TENNIS de TAB</club>
+        <nclub>07800011</nclub>
+        <clast>7</clast>
+    </joueur>
+    <joueur>
+        <licence>1328314</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>AS MIRAMAS</club>
+        <nclub>13130012</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>845224</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>US RAQUETTE ENTRAIGUOISE</club>
+        <nclub>13840004</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7639343</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CANTELEU MAROMME TT</club>
+        <nclub>09760425</nclub>
+        <clast>10</clast>
+    </joueur>
+    <joueur>
+        <licence>7419082</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ENTENTE PONGISTE AMBILLY</club>
+        <nclub>01740001</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7898138</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>TRIEL TT</club>
+        <nclub>08781471</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>748030</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>SOPHIA TENNIS DE TABLE</club>
+        <nclub>13060114</nclub>
+        <clast>7</clast>
+    </joueur>
+    <joueur>
+        <licence>6814593</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>HUNINGUE TTC</club>
+        <nclub>06680102</nclub>
+        <clast>11</clast>
+    </joueur>
+    <joueur>
+        <licence>8011752</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CAIX-ROSIERES TTCR</club>
+        <nclub>07800062</nclub>
+        <clast>10</clast>
+    </joueur>
+    <joueur>
+        <licence>5969045</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>BRUILLE CTT</club>
+        <nclub>07590231</nclub>
+        <clast>8</clast>
+    </joueur>
+    <joueur>
+        <licence>7918773</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>F.O.L.C. LORIENT OUEST</club>
+        <nclub>03560033</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>611273</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ALENCON ETOILE</club>
+        <nclub>09610009</nclub>
+        <clast>9</clast>
+    </joueur>
+    <joueur>
+        <licence>257051</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ASC MATHAY</club>
+        <nclub>02250205</nclub>
+        <clast>8</clast>
+    </joueur>
+    <joueur>
+        <licence>9469621</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CACHAN CO TT</club>
+        <nclub>08941282</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7642417</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>RACING CLUB PORT DU HAVRE</club>
+        <nclub>09760382</nclub>
+        <clast>9</clast>
+    </joueur>
+    <joueur>
+        <licence>3122237</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>TOAC Tennis de Table</club>
+        <nclub>11310011</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>8530058</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CHALLANS OPS</club>
+        <nclub>12850026</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>6320198</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>C L COURNON</club>
+        <nclub>01630078</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7621347</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CP GRANDCAMP</club>
+        <nclub>09760403</nclub>
+        <clast>12</clast>
+    </joueur>
+    <joueur>
+        <licence>3844767</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CENTR ISERE TT</club>
+        <nclub>01380236</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>2723335</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>AS VAUDREUIL TENNIS TABLE</club>
+        <nclub>09270071</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7893939</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>TRIEL TT</club>
+        <nclub>08781471</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>9543586</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>ST PRIX ASTT</club>
+        <nclub>08950260</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>7527098</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>CPS 10eme</club>
+        <nclub>08751271</nclub>
+        <clast>5</clast>
+    </joueur>
+    <joueur>
+        <licence>4945677</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>MAZE AUTHION TENNIS DE TA</club>
+        <nclub>12490092</nclub>
+        <clast>5</clast>
+    </joueur>
+</liste>

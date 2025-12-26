@@ -1,0 +1,21 @@
+### [xml_club_detail] Détail d'un club par son numéro avec affichage de la salle principale
+GET https://www.fftt.com/mobile/pxml/xml_club_detail.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160085
+
+>>! ../snapshots/xml_club_detail/default.xml
+
+### [xml_club_detail] Détail d'un club par son numéro avec affichage de la salle associée à une équipe particulière du club.
+# Par défaut, la salle principale du club est affichée.
+GET https://www.fftt.com/mobile/pxml/xml_club_detail.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160085
+  &idequipe=27022
+
+>>! ../snapshots/xml_club_detail/equipe.xml

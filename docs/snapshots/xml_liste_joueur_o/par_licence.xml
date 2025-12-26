@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <joueur>
+        <licence>1610533</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>10160051</club>
+        <nclub>Chateauneuf TT Castelnovien</nclub>
+        <sexe>M</sexe>
+        <echelon></echelon>
+        <place/>
+        <points>1117</points>
+    </joueur>
+</liste>

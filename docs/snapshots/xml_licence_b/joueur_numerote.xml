@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <licence>
+        <idlicence>74717</idlicence>
+        <licence>147115</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <numclub>09140055</numclub>
+        <nomclub>Amicale Pongiste de Ouistreham</nomclub>
+        <sexe>M</sexe>
+        <type>T</type>
+        <certif>A</certif>
+        <validation>10/09/2025</validation>
+        <echelon>N</echelon>
+        <place>268</place>
+        <point>2454</point>
+        <cat>S</cat>
+        <pointm>2448.5</pointm>
+        <apointm>2448.5</apointm>
+        <initm>2454</initm>
+        <mutation>01/07/2024</mutation>
+        <natio>F</natio>
+        <arb/>
+        <ja/>
+        <tech>BEES1</tech>
+    </licence>
+</liste>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <joueur>
+        <licence>147115</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>09140055</club>
+        <nclub>Amicale Pongiste de Ouistreham</nclub>
+        <sexe>M</sexe>
+        <echelon>N</echelon>
+        <place>268</place>
+        <points>2454</points>
+    </joueur>
+</liste>

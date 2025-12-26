@@ -1,0 +1,39 @@
+### xml_chp_renc : Renvoie les informations détaillées d’une rencontre de championnat par équipes (avec joueurs numérotés)
+GET https://www.fftt.com/mobile/pxml/xml_chp_renc.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &renc_id=5073367
+  &is_retour=0
+  &phase=1
+  &res_1=4
+  &res_2=8
+  &equip_1=LA+ROMAGNE+SS+2
+  &equip_2=ROMANS+ASPTT+1
+  &equip_id1=2747
+  &equip_id2=1870
+  &clubnum_1=12490040
+  &clubnum_2=01260010
+
+>>! ../snapshots/xml_chp_renc/numerotes.xml
+
+### xml_chp_renc : Renvoie les informations détaillées d’une rencontre de championnat par équipes (sans joueurs numérotés)
+GET https://www.fftt.com/mobile/pxml/xml_chp_renc.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &renc_id=5130943
+  &is_retour=0
+  &phase=1
+  &res_1=7
+  &res_2=7
+  &equip_1=Chateaubernard+3
+  &equip_2=Vars+EP+1
+  &equip_id1=13360
+  &equip_id2=306
+  &clubnum_1=10160044
+  &clubnum_2=10160197
+
+>>! ../snapshots/xml_chp_renc/default.xml

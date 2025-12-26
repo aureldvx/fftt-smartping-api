@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <joueur>
+        <licence>147115</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Amicale Pongiste de Ouist</club>
+        <nclub>09140055</nclub>
+        <natio></natio>
+        <clglob>264</clglob>
+        <point>2448.5</point>
+        <aclglob>261</aclglob>
+        <apoint>2448.5</apoint>
+        <clast>N268</clast>
+        <clnat>149</clnat>
+        <categ>S</categ>
+        <rangreg>30</rangreg>
+        <rangdep>11</rangdep>
+        <valcla>2454</valcla>
+        <clpro>NN</clpro>
+        <valinit>2454</valinit>
+    </joueur>
+</liste>

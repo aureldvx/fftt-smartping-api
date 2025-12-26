@@ -1,0 +1,39 @@
+### [xml_club_b] Recherche de l'ensemble des clubs d'un département
+GET https://www.fftt.com/mobile/pxml/xml_club_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &dep=16
+
+>>! ../snapshots/xml_club_b/par_departement.xml
+
+### [xml_club_b] Recherche de l'ensemble des clubs d'une ville
+GET https://www.fftt.com/mobile/pxml/xml_club_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &ville=paris
+
+>>! ../snapshots/xml_club_b/par_ville.xml
+
+### [xml_club_b] Recherche de l'ensemble des clubs d'un code postal donné
+GET https://www.fftt.com/mobile/pxml/xml_club_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &code=33000
+
+>>! ../snapshots/xml_club_b/par_code_postal.xml
+
+### [xml_club_b] Recherche d'un club par son numéro
+GET https://www.fftt.com/mobile/pxml/xml_club_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numero=10160051
+
+>>! ../snapshots/xml_club_b/par_numero.xml

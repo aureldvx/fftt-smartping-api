@@ -1,0 +1,19 @@
+### [xml_partie] Récupérer la liste des parties d’un joueur de la base SPID avec adversaires numérotés
+GET https://www.fftt.com/mobile/pxml/xml_partie.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numlic=3338295
+
+>>! ../snapshots/xml_partie/numerotes.xml
+
+### [xml_partie] Récupérer la liste des parties d’un joueur de la base SPID
+GET https://www.fftt.com/mobile/pxml/xml_partie.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numlic=1616528
+
+>>! ../snapshots/xml_partie/default.xml

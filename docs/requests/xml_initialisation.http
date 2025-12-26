@@ -1,0 +1,17 @@
+### [xml_initialisation] Initialisation d'un nouvel utilisateur avec les bons identifiants
+GET https://www.fftt.com/mobile/pxml/xml_initialisation.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+
+>>! ../snapshots/xml_initialisation/valide.xml
+
+### [xml_initialisation] Initialisation d'un nouvel utilisateur avec des identifiants incorrects
+GET https://www.fftt.com/mobile/pxml/xml_initialisation.php
+  ?serie=6789
+  &id=1234
+  &tm={{tm}}
+  &tmc={{tmc}}
+
+>>! ../snapshots/xml_initialisation/invalide.xml

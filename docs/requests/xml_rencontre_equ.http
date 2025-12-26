@@ -1,0 +1,19 @@
+### [xml_rencontre_equ] Récupérer les résultats de plusieurs poules de championnat par équipes
+GET https://www.fftt.com/mobile/pxml/xml_rencontre_equ.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &poule=1142696|1142697
+
+>>! ../snapshots/xml_rencontre_equ/multiple.xml
+
+### [xml_rencontre_equ] Récupérer les résultats d’une poule de championnat par équipes
+GET https://www.fftt.com/mobile/pxml/xml_rencontre_equ.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &poule=1139716
+
+>>! ../snapshots/xml_rencontre_equ/unique.xml

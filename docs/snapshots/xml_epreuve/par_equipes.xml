@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <epreuve>
+        <idepreuve>258</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Chpt France par equipes feminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>257</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Chpt France par equipes masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>17178</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat Antilles Guyane</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14983</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat Antilles Guyane</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13418</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat Antilles Guyane</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11345</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Féminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8986</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Féminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2304</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Féminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15955</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Féminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13656</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Féminin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8985</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2303</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15954</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13655</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11344</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France par Equipes Masculin</libelle>
+        <typepreuve>H</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>934</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Championnat des Jeunes FFTT</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>372</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Chpt par équipes corpo</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>879</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Coupe de France des Clubs</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>278</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Coupe Nationale Corporative</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>277</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Coupe Nationale Veterans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13723</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Corporatif</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11414</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Corporatif</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9064</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Corporatif</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2418</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Corporatif</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16020</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Corporatif</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14031</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11737</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9412</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16315</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2980</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat par Equipes Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2925</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe de France des Clubs</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11362</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe Nationale Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9003</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe Nationale Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2323</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe Nationale Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15970</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe Nationale Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13672</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Coupe Nationale Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13673</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11363</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9004</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2325</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15971</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>279</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Interclubs Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1017</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14065</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11773</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9455</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16348</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>3063</idepreuve>
+        <idorga>18</idorga>
+        <libelle>COUPE VETERANS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>176</idepreuve>
+        <idorga>131</idorga>
+        <libelle>16 Championnat Veteran phase 2</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1397</idepreuve>
+        <idorga>131</idorga>
+        <libelle>a supprimer</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>34</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHALLENGE CORPO 2002</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1328</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHALLENGE FEMININ</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>222</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHAMPIONNAT CORPO 2E PHASE</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>135</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHAMPIONNAT CORPO CHARENTAIS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>73</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHAMPIONNAT JEUNES CHARENTAIS</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>66</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHAMPIONNAT VETERANS 16</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>444</idepreuve>
+        <idorga>131</idorga>
+        <libelle>coupe davis chateaubrenard</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1193</idepreuve>
+        <idorga>131</idorga>
+        <libelle>COUPES DU COMITE</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2120</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15836</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8844</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -13</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13534</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -13</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11215</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -13</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14643</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -18</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12397</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -18</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>10892</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Jeunes -18</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8838</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2113</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15831</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13528</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11209</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Championnat Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16436</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Coupe du Comité</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>3239</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Coupe du Comité</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14158</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Coupe du Comité</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11871</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Coupe du Comité</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9561</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16 - Coupe du Comité</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13269</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16-Championnat Vétérans poule de 8 - D1</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13270</idepreuve>
+        <idorga>131</idorga>
+        <libelle>D16-Championnat Vétérans poule de 8 - D2</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4159</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Essai championnat Jeunes ou Vétérans</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>241</idepreuve>
+        <idorga>131</idorga>
+        <libelle>INTERCLUB VETERAN</libelle>
+        <typepreuve>E</typepreuve>
+    </epreuve>
+</liste>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>2747</idequipe>
+        <libequipe>LA ROMAGNE SS 2 - Phase 1</libequipe>
+        <libdivision>FED_Nationale 1 Messieurs Phase 1 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1142696&D1=199108&organisme_pere=1]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>1591</idequipe>
+        <libequipe>LA ROMAGNE SS 3 - Phase 1</libequipe>
+        <libdivision>FED_Nationale 2 Messieurs Phase 1 Poule 3</libdivision>
+        <liendivision><![CDATA[cx_poule=1142701&D1=199109&organisme_pere=1]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>17222</idepr>
+        <libepr>FED_Championnats de France par équipes Pro</libepr>
+        <idequipe>33423</idequipe>
+        <libequipe>ROMAGNE (LA) 1 - Phase 1</libequipe>
+        <libdivision>FED_PRO A Messieurs Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1221122&D1=212450&organisme_pere=1]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>56</idequipe>
+        <libequipe>LA ROMAGNE 4 - Phase 1</libequipe>
+        <libdivision>L12 Ph1 - PRENATIONALE MESSIEURS Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1140574&D1=198554&organisme_pere=20]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>85</idequipe>
+        <libequipe>LA ROMAGNE SS 5 - Phase 1</libequipe>
+        <libdivision>L12 Ph1 - PRENATIONALE MESSIEURS Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1140575&D1=198554&organisme_pere=20]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>930</idequipe>
+        <libequipe>ROMAGNE (LA) 6 - Phase 1</libequipe>
+        <libdivision>L12_Ph1 - REGIONALE 3 MESSIEURS Poule 6</libdivision>
+        <liendivision><![CDATA[cx_poule=1140784&D1=198602&organisme_pere=20]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>11695</idequipe>
+        <libequipe>ROMAGNE (LA) 7 - Phase 1</libequipe>
+        <libdivision>L12_Ph1 - REGIONALE 3 MESSIEURS Poule 7</libdivision>
+        <liendivision><![CDATA[cx_poule=1140785&D1=198602&organisme_pere=20]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>12911</idequipe>
+        <libequipe>ROMAGNE (LA) (9h) 8 - Phase 1</libequipe>
+        <libdivision>D49_DEPARTEMENTALE D2 MESSIEURS PH1 Poule 6</libdivision>
+        <liendivision><![CDATA[cx_poule=1140562&D1=198550&organisme_pere=56]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>12967</idequipe>
+        <libequipe>ROMAGNE (9h) 9 - Phase 1</libequipe>
+        <libdivision>D49_DEPARTEMENTALE D4 MESSIEURS PH1 Poule 11</libdivision>
+        <liendivision><![CDATA[cx_poule=1140240&D1=198470&organisme_pere=56]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>17240</idepr>
+        <libepr>D49_Coupe du Comité</libepr>
+        <idequipe>33810</idequipe>
+        <libequipe>ROMAGNE 1 - Phase 1</libequipe>
+        <libdivision>Coupe du Comité 1</libdivision>
+        <liendivision><![CDATA[cx_poule=&D1=212609&organisme_pere=56]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15955</idepr>
+        <libepr>FED_Championnat de France par Equipes Féminin</libepr>
+        <idequipe>37150</idequipe>
+        <libequipe>Ent. BEAUREP/ST FULG / ROMAGNE 1 - Phase 1</libequipe>
+        <libdivision>L12_Interdépartemental 1 Dames_Ph1 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1143916&D1=199610&organisme_pere=20]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>16168</idepr>
+        <libepr>D49_Champ. jeunes</libepr>
+        <idequipe>15827</idequipe>
+        <libequipe>ROMAGNE (10h) 1 - Phase 1</libequipe>
+        <libdivision>D49_DEPARTEMENTAL JEUNES D2 PH1 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1161875&D1=205174&organisme_pere=56]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>16168</idepr>
+        <libepr>D49_Champ. jeunes</libepr>
+        <idequipe>15642</idequipe>
+        <libequipe>ROMAGNE (10h) 2 - Phase 1</libequipe>
+        <libdivision>D49_DEPARTEMENTAL JEUNES D4 PH1 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1248591&D1=228194&organisme_pere=56]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>16168</idepr>
+        <libepr>D49_Champ. jeunes</libepr>
+        <idequipe>15171</idequipe>
+        <libequipe>ROMAGNE (10h) 3 - Phase 1</libequipe>
+        <libdivision>D49_DEPARTEMENTAL JEUNES D4 PH1 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1248592&D1=228194&organisme_pere=56]]></liendivision>
+    </equipe>
+</liste>

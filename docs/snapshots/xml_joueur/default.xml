@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <joueur>
+        <licence>1610533</licence>
+        <nom>DUPONT</nom>
+        <prenom>Michel</prenom>
+        <club>Chateauneuf TT Castelnovi</club>
+        <nclub>10160051</nclub>
+        <natio></natio>
+        <clglob>16047</clglob>
+        <point>1117</point>
+        <aclglob>0</aclglob>
+        <apoint>1117</apoint>
+        <clast>11</clast>
+        <clnat>15561</clnat>
+        <categ>S</categ>
+        <rangreg>1283</rangreg>
+        <rangdep>99</rangdep>
+        <valcla>1117</valcla>
+        <clpro>11</clpro>
+        <valinit>1117</valinit>
+    </joueur>
+</liste>

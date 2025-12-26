@@ -1,0 +1,37 @@
+  ### [xml_result_indiv] Récupérer la liste des tableaux d’une épreuve individuelle
+GET https://www.fftt.com/mobile/pxml/xml_result_indiv.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &action=poule
+  &epr=15953
+  &res_division=196680
+
+>>! ../snapshots/xml_result_indiv/groupes.xml
+
+### [xml_result_indiv] Récupérer le classement d'un tableau d’une épreuve individuelle
+GET https://www.fftt.com/mobile/pxml/xml_result_indiv.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &action=classement
+  &epr=15953
+  &res_division=196680
+  &cx_tableau=219833
+
+>>! ../snapshots/xml_result_indiv/classement.xml
+
+### [xml_result_indiv] Récupérer les parties d'un tableau d’une épreuve individuelle
+GET https://www.fftt.com/mobile/pxml/xml_result_indiv.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &action=partie
+  &epr=15953
+  &res_division=196680
+  &cx_tableau=219833
+
+>>! ../snapshots/xml_result_indiv/parties.xml

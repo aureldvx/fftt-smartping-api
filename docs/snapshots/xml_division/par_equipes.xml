@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <division>
+        <iddivision>199108</iddivision>
+        <libelle>FED_Nationale 1 Messieurs Phase 1 (Phase 1)</libelle>
+    </division>
+    <division>
+        <iddivision>199109</iddivision>
+        <libelle>FED_Nationale 2 Messieurs Phase 1 (Phase 1)</libelle>
+    </division>
+    <division>
+        <iddivision>199110</iddivision>
+        <libelle>FED_Nationale 3 Messieurs Phase 1 (Phase 1)</libelle>
+    </division>
+    <division>
+        <iddivision>199127</iddivision>
+        <libelle>FED_Nationale 1A Messieurs Phase 2 (Phase 2)</libelle>
+    </division>
+    <division>
+        <iddivision>199128</iddivision>
+        <libelle>FED_Nationale 2 Messieurs Phase 2 (Phase 2)</libelle>
+    </division>
+    <division>
+        <iddivision>199129</iddivision>
+        <libelle>FED_Nationale 3 Messieurs Phase 2 (Phase 2)</libelle>
+    </division>
+    <division>
+        <iddivision>199328</iddivision>
+        <libelle>FED_Nationale 1B Messieurs Phase 2 (Phase 2)</libelle>
+    </division>
+</liste>

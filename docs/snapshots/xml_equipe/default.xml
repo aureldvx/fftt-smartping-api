@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>10998</idequipe>
+        <libequipe>Chateauneuf TTC 1 - Phase 1</libequipe>
+        <libdivision>D16 - Pré Régionale - Ph 1 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1139716&D1=198347&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>13387</idequipe>
+        <libequipe>Chateauneuf TTC 3 - Phase 1</libequipe>
+        <libdivision>D16 - Division 3 - Ph 1 Poule 4</libdivision>
+        <liendivision><![CDATA[cx_poule=1139504&D1=198292&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>17678</idequipe>
+        <libequipe>Chateauneuf TTC 4 - Phase 1</libequipe>
+        <libdivision>D16 - Division 4 - Ph 1 Poule 3</libdivision>
+        <liendivision><![CDATA[cx_poule=1139709&D1=198345&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>29760</idequipe>
+        <libequipe>Chateauneuf TTC 5 - Phase 1</libequipe>
+        <libdivision>D16 - Division 4 - Ph 1 Poule 4</libdivision>
+        <liendivision><![CDATA[cx_poule=1139710&D1=198345&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15954</idepr>
+        <libepr>FED_Championnat de France par Equipes Masculin</libepr>
+        <idequipe>11002</idequipe>
+        <libequipe>Chateauneuf TTC 2 - Phase 1</libequipe>
+        <libdivision>D16 - Division 2 - Ph 1 Poule 3</libdivision>
+        <liendivision><![CDATA[cx_poule=1140906&D1=198645&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15831</idepr>
+        <libepr>D16 - Championnat Vétérans</libepr>
+        <idequipe>34623</idequipe>
+        <libequipe>Chateauneuf TTC 1 - Phase 1</libequipe>
+        <libdivision>D16 - Championnat vétérans - Division 2 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1110450&D1=195427&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19290</idequipe>
+        <libequipe>Chateauneuf TTC (1) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_11_T1_D1 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1265476&D1=228529&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19291</idequipe>
+        <libequipe>Chateauneuf TTC (2) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_11_T1_D1 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1265477&D1=228529&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19290</idequipe>
+        <libequipe>Chateauneuf TTC (1) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_15_T1_D2 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1265482&D1=228527&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19291</idequipe>
+        <libequipe>Chateauneuf TTC (2) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_15_T1_D2 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1265483&D1=228527&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19293</idequipe>
+        <libequipe>Chateauneuf TTC (3) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_15_T1_D3 Poule 1</libdivision>
+        <liendivision><![CDATA[cx_poule=1265484&D1=228528&organisme_pere=131]]></liendivision>
+    </equipe>
+    <equipe>
+        <idepr>15836</idepr>
+        <libepr>D16 - Championnat Jeunes</libepr>
+        <idequipe>19298</idequipe>
+        <libequipe>Chateauneuf TTC (4) - Phase 1</libequipe>
+        <libdivision>D16_CHAMP_JEUNES_15_T1_D3 Poule 2</libdivision>
+        <liendivision><![CDATA[cx_poule=1265485&D1=228528&organisme_pere=131]]></liendivision>
+    </equipe>
+</liste>

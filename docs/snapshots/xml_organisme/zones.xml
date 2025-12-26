@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <organisme>
+        <libelle>ZONE 1 (CVL-IDF)</libelle>
+        <id>8</id>
+        <code>Z01</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 2 (BR-PDL)</libelle>
+        <id>7</id>
+        <code>Z02</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 3 (NA-OCC)</libelle>
+        <id>6</id>
+        <code>Z03</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 4 (AURA-CO-PACA)</libelle>
+        <id>5</id>
+        <code>Z04</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 5 (BFC-GE)</libelle>
+        <id>4</id>
+        <code>Z05</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 6 (HDF-NOR)</libelle>
+        <id>3</id>
+        <code>Z06</code>
+        <idPere>1</idPere>
+    </organisme>
+    <organisme>
+        <libelle>ZONE 7 (DOM-TOM)</libelle>
+        <id>2</id>
+        <code>Z07</code>
+        <idPere>1</idPere>
+    </organisme>
+</liste>

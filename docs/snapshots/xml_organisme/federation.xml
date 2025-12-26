@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <organisme>
+        <libelle>FFTT</libelle>
+        <id>1</id>
+        <code>FEDE</code>
+        <idPere/>
+    </organisme>
+</liste>

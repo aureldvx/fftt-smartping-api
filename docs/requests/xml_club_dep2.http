@@ -1,0 +1,9 @@
+### [xml_club_dep2] Recherche d'un ensemble de clubs dans un département donné
+GET https://www.fftt.com/mobile/pxml/xml_club_dep2.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &dep=16
+
+>>! ../snapshots/xml_club_dep2/default.xml

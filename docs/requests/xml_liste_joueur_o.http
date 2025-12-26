@@ -1,0 +1,51 @@
+### [xml_liste_joueur_o] Rechercher des joueurs provenant de la base SPID par leur club
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur_o.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160051
+
+>>! ../snapshots/xml_liste_joueur_o/par_club.xml
+
+### [xml_liste_joueur_o] Rechercher des joueurs provenant de la base SPID par leur club et validés pour la saison en cours
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur_o.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160051
+  &valid=1
+
+>>! ../snapshots/xml_liste_joueur_o/par_club_valides.xml
+
+### [xml_liste_joueur_o] Rechercher des joueurs provenant de la base SPID par leur nom
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur_o.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &nom=devaux
+
+>>! ../snapshots/xml_liste_joueur_o/par_nom.xml
+
+### [xml_liste_joueur_o] Rechercher des joueurs provenant de la base SPID par leur nom et prénom
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur_o.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &nom=devaux
+  &prenom=jimmy
+
+>>! ../snapshots/xml_liste_joueur_o/par_nom_prenom.xml
+
+### [xml_liste_joueur_o] Rechercher un joueur provenant de la base SPID par son numéro de licence
+GET https://www.fftt.com/mobile/pxml/xml_liste_joueur_o.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1610533
+
+>>! ../snapshots/xml_liste_joueur_o/par_licence.xml

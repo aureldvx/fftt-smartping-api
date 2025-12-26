@@ -1,0 +1,9 @@
+### [xml_histo_classement] Renvoie l’historique classement d’un joueur
+GET https://www.fftt.com/mobile/pxml/xml_histo_classement.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numlic=3338295
+
+>>! ../snapshots/xml_histo_classement/default.xml

@@ -1,0 +1,19 @@
+### [xml_equipe] Renvoie la liste des équipes d’un club (avec équipes en Pro)
+GET https://www.fftt.com/mobile/pxml/xml_equipe.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numclu=12490040
+
+>>! ../snapshots/xml_equipe/pro.xml
+
+### [xml_equipe] Renvoie la liste des équipes d’un club (sans équipes en Pro)
+GET https://www.fftt.com/mobile/pxml/xml_equipe.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &numclu=10160051
+
+>>! ../snapshots/xml_equipe/default.xml

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <epreuve>
+        <idepreuve>256</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Criterium federal</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11343</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Critérium Fédéral</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13654</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Critérium Fédéral</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15953</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Critérium Fédéral</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8984</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Critérium Fédéral</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2302</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Critérium Fédéral</libelle>
+        <typepreuve>C</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>289</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>284</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Championnats de France Corpos</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>282</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Championnats de France Jeunes</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>283</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Championnats de France Veterans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16748</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12217</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14480</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9954</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4523</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Challenge Bernard Jeu</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11366</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Corporatifs</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13676</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Corporatifs</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15974</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Corporatifs</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9008</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Corporatifs</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2330</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Corporatifs</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11365</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Vétérans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13675</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Vétérans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15973</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Vétérans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9007</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Vétérans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2329</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnat de France Vétérans</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2328</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Championnats de France Jeunes - 2022</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11368</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13678</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15976</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9010</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2333</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11347</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13658</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15957</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8988</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2306</idepreuve>
+        <idorga>1</idorga>
+        <libelle>FED_Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>287</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Finales Individuelles</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>260</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Finales par classement</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>629</idepreuve>
+        <idorga>1</idorga>
+        <libelle>Tournoi Reg - Dep</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4528</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Eysines</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16753</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Eysines</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12222</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Eysines</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14485</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Eysines</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9959</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Eysines</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11298</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13613</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>15913</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>8931</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2230</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>184</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L 20 COUPE REGIONALE VETERANS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>240</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L20 Interclubs Jeunes</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>805</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L20 TOPS J</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>565</idepreuve>
+        <idorga>18</idorga>
+        <libelle>L20 TOURNOI FEMININ</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16751</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Le Haillan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12220</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Le Haillan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14483</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Le Haillan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9957</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Le Haillan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4526</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Le Haillan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>940</idepreuve>
+        <idorga>18</idorga>
+        <libelle>SPID Test</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16752</idepreuve>
+        <idorga>18</idorga>
+        <libelle>St Loub'Ping</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12221</idepreuve>
+        <idorga>18</idorga>
+        <libelle>St Loub'Ping</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14484</idepreuve>
+        <idorga>18</idorga>
+        <libelle>St Loub'Ping</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9958</idepreuve>
+        <idorga>18</idorga>
+        <libelle>St Loub'Ping</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4527</idepreuve>
+        <idorga>18</idorga>
+        <libelle>St Loub'Ping</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>767</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP 12 ET 8</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>610</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16150</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11560</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13862</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9219</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2656</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOP DE ZONE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16927</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Tournoi Regional St Palais Royan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12420</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Tournoi Regional St Palais Royan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14665</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Tournoi Regional St Palais Royan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>10932</idepreuve>
+        <idorga>18</idorga>
+        <libelle>Tournoi Regional St Palais Royan</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>529</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16104</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>11508</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13812</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9162</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>2575</idepreuve>
+        <idorga>18</idorga>
+        <libelle>TOURNOI SLP</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16644</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Challenge Féminin</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12101</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Challenge Féminin</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14372</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Challenge Féminin</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9815</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Challenge Féminin</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4340</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Challenge Féminin</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>334</idepreuve>
+        <idorga>131</idorga>
+        <libelle>CHALLENGE FEMININ CHARENTE</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>962</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Championnat Jeunes Finale</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>757</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Championnat jeunes tour 1</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>946</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Championnat jeunes tour 2</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1008</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Championnat jeunes tour 3</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>17139</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Critérium Vétérans CD16</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>13346</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Critérium Vétérans CD16</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14925</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Critérium Vétérans CD16</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>16687</idepreuve>
+        <idorga>131</idorga>
+        <libelle>NE PAS UTILISER</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>12151</idepreuve>
+        <idorga>131</idorga>
+        <libelle>NE PAS UTILISER</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>14418</idepreuve>
+        <idorga>131</idorga>
+        <libelle>NE PAS UTILISER</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>9869</idepreuve>
+        <idorga>131</idorga>
+        <libelle>NE PAS UTILISER</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>4416</idepreuve>
+        <idorga>131</idorga>
+        <libelle>NE PAS UTILISER</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>299</idepreuve>
+        <idorga>131</idorga>
+        <libelle>TOP 6 CHARENTAIS</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>758</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Tournoi de Vars</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1013</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Tournoi departemental T.T.G.P.</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>607</idepreuve>
+        <idorga>131</idorga>
+        <libelle>TOURNOI DEPARTEMENTALE 16</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>1007</idepreuve>
+        <idorga>131</idorga>
+        <libelle>Tournoi du Comite</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+    <epreuve>
+        <idepreuve>365</idepreuve>
+        <idorga>131</idorga>
+        <libelle>TOURNOI FEMININ 16</libelle>
+        <typepreuve>I</typepreuve>
+    </epreuve>
+</liste>

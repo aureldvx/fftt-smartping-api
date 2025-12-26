@@ -1,0 +1,19 @@
+### [xml_joueur] Renvoie un joueur provenant de la base classement
+GET https://www.fftt.com/mobile/pxml/xml_joueur.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1610533
+
+>>! ../snapshots/xml_joueur/default.xml
+
+### [xml_joueur] Renvoie un joueur numéroté provenant de la base classement
+GET https://www.fftt.com/mobile/pxml/xml_joueur.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=147115
+
+>>! ../snapshots/xml_joueur/numerote.xml

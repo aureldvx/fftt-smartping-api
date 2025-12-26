@@ -1,0 +1,29 @@
+### [xml_licence_b] Récupérer une liste de joueurs provenant de la base SPID + base classement
+GET https://www.fftt.com/mobile/pxml/xml_licence_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &club=10160051
+
+>>! ../snapshots/xml_licence_b/club.xml
+
+### [xml_licence_b] Récupérer un joueur provenant de la base SPID + base classement
+GET https://www.fftt.com/mobile/pxml/xml_licence_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=1616528
+
+>>! ../snapshots/xml_licence_b/joueur.xml
+
+### [xml_licence_b] Récupérer un joueur numéroté provenant de la base SPID + base classement
+GET https://www.fftt.com/mobile/pxml/xml_licence_b.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+  &licence=147115
+
+>>! ../snapshots/xml_licence_b/joueur_numerote.xml

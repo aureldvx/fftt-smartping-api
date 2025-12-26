@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <tour>
+        <libelle>T4 Gr1</libelle>
+        <lien><![CDATA[epr=15953&res_division=196680&cx_tableau=219834]]></lien>
+        <date>15/03/2026</date>
+    </tour>
+    <tour>
+        <libelle>T3 Gr1</libelle>
+        <lien><![CDATA[epr=15953&res_division=196680&cx_tableau=219835]]></lien>
+        <date>25/01/2026</date>
+    </tour>
+    <tour>
+        <libelle>T2 Gr1</libelle>
+        <lien><![CDATA[epr=15953&res_division=196680&cx_tableau=219832]]></lien>
+        <date>23/11/2025</date>
+    </tour>
+    <tour>
+        <libelle>T1 Gr1</libelle>
+        <lien><![CDATA[epr=15953&res_division=196680&cx_tableau=219833]]></lien>
+        <date>17/10/2025</date>
+    </tour>
+</liste>

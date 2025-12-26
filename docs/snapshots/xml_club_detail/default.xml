@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <club>
+        <idclub>20160085</idclub>
+        <numero>10160085</numero>
+        <nom>Chalais - Montmoreau</nom>
+        <nomsalle>CHALAIS - MONTMOREAU</nomsalle>
+        <adressesalle1>Avenue Henri Dunant</adressesalle1>
+        <adressesalle2/>
+        <adressesalle3></adressesalle3>
+        <codepsalle>16190</codepsalle>
+        <villesalle>MONTMOREAU ST CYBARD</villesalle>
+        <web/>
+        <nomcor>DUPONT</nomcor>
+        <prenomcor>Michel</prenomcor>
+        <mailcor>michel.com</mailcor>
+        <telcor>0123456789</telcor>
+        <latitude>45.397488</latitude>
+        <longitude>0.128955</longitude>
+        <validation>22/07/2025</validation>
+    </club>
+</liste>

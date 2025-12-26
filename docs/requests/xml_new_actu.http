@@ -1,0 +1,8 @@
+### [xml_new_actu] Récupérer le flux d’actualités de la FFTT
+GET https://www.fftt.com/mobile/pxml/xml_new_actu.php
+  ?serie={{serie}}
+  &id={{id}}
+  &tm={{tm}}
+  &tmc={{tmc}}
+
+>>! ../snapshots/xml_new_actu/default.xml

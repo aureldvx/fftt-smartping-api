@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liste>
+    <resultat>
+        <equa>ROMANS ASPTT 1</equa>
+        <equb>LA ROMAGNE SS 2</equb>
+        <resa>8</resa>
+        <resb>4</resb>
+    </resultat>
+    <joueur>
+        <xja>DUPONT Michel</xja>
+        <xca>N°117- M 2759pts</xca>
+        <xjb>DUPOND Micheline</xjb>
+        <xcb>N°251- M 2473pts</xcb>
+    </joueur>
+    <joueur>
+        <xja>DUPONT Michel</xja>
+        <xca>N°308- M 2412pts</xca>
+        <xjb>DUPOND Micheline</xjb>
+        <xcb>N°355- M 2371pts</xcb>
+    </joueur>
+    <joueur>
+        <xja>DUPONT Michel</xja>
+        <xca>N°237- M 2488pts</xca>
+        <xjb>DUPOND Micheline</xjb>
+        <xcb>N°125- M 2727pts</xcb>
+    </joueur>
+    <joueur>
+        <xja>DUPONT Michel</xja>
+        <xca>N°198- M 2538pts</xca>
+        <xjb>DUPOND Micheline</xjb>
+        <xcb>N°380- M 2342pts</xcb>
+    </joueur>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>08 05 05</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>07 11 09</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>-</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>1</scoreb>
+        <detail>-08 -06 -05</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>-</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>1</scoreb>
+        <detail>09 -07 -07 08 -09</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>07 -09 -10 04 05</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>-</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>1</scoreb>
+        <detail>-08 -09 -07</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>-</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>1</scoreb>
+        <detail>-08 -05 -04</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>04 -09 06 08</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>07 03 05</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>-07 09 08 -06 07</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>12 08 03</detail>
+    </partie>
+    <partie>
+        <ja>DUPONT Michel</ja>
+        <scorea>1</scorea>
+        <jb>DUPOND Micheline</jb>
+        <scoreb>-</scoreb>
+        <detail>06 08 05</detail>
+    </partie>
+</liste>
