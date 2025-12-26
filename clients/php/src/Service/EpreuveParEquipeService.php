@@ -27,7 +27,7 @@ final readonly class EpreuveParEquipeService implements EpreuveParEquipeContract
             'D1' => $divisionId,
         ]);
 
-        return array_map(fn($item) => Poule::fromArray($item), $response['poule'] ?? []);
+        return array_map(fn ($item) => Poule::fromArray($item), $response['poule'] ?? []);
     }
 
     /** @inheritdoc */
@@ -45,7 +45,7 @@ final readonly class EpreuveParEquipeService implements EpreuveParEquipeContract
 
         $response = $this->httpClient->fetch(API::XML_RESULT_EQU, $params);
 
-        return array_map(fn($item) => Rencontre::fromArray($item), $response['tour'] ?? []);
+        return array_map(fn ($item) => Rencontre::fromArray($item), $response['tour'] ?? []);
     }
 
     /** @inheritdoc */
@@ -88,7 +88,7 @@ final readonly class EpreuveParEquipeService implements EpreuveParEquipeContract
 
         $response = $this->httpClient->fetch(API::XML_RESULT_EQU, $params);
 
-        return array_map(fn($item) => EquipePoule::fromArray($item), $response['classement'] ?? []);
+        return array_map(fn ($item) => EquipePoule::fromArray($item), $response['classement'] ?? []);
     }
 
     /** @inheritdoc */

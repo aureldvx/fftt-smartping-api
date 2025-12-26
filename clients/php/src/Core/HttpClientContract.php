@@ -11,5 +11,5 @@ interface HttpClientContract
     /**
      * Appelle un endpoint et le convertit en tableau associatif.
      */
-    function fetch(API $endpoint, array $requestParams): array;
+    public function fetch(API $endpoint, array $requestParams): array;
 }

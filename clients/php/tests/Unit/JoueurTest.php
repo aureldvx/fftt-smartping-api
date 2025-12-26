@@ -158,4 +158,3 @@ it("devrait récupérer l'historique de classement d'un joueur", function () {
         ->and($result[0])->toBeInstanceOf(HistoriqueClassement::class)
         ->and($result[0]->pointsOfficiels())->toBe(500.0);
 });
-

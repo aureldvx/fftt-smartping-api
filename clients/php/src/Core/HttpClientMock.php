@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace SmartpingApi\Core;
 
 use SmartpingApi\Enum\API;
+use InvalidArgumentException;
 
-class HttpClientMock extends AbstractHttpClient implements HttpClientContract
+final class HttpClientMock extends AbstractHttpClient implements HttpClientContract
 {
-    function fetch(API $endpoint, array $requestParams): array
+    public function fetch(API $endpoint, array $requestParams): array
     {
         $mock = match (true) {
             $endpoint === API::XML_CHP_RENC => 'xml_chp_renc/default.xml',
@@ -54,7 +55,7 @@ class HttpClientMock extends AbstractHttpClient implements HttpClientContract
             $endpoint === API::XML_RESULT_INDIV && $requestParams['action'] === 'poule' => 'xml_result_indiv/groupes.xml',
             $endpoint === API::XML_RESULT_INDIV && $requestParams['action'] === 'classement' => 'xml_result_indiv/classement.xml',
             $endpoint === API::XML_RESULT_INDIV && $requestParams['action'] === 'partie' => 'xml_result_indiv/parties.xml',
-            default => throw new \InvalidArgumentException('Endpoint API non supporté')
+            default => throw new InvalidArgumentException('Endpoint API non supporté')
         };
 
         $mockContent = file_get_contents(__DIR__ . '/../../../../docs/snapshots/' . $mock);

@@ -81,7 +81,7 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
         /**
          * Supprime le premier `&`.
          */
-        $queryParamsEncoded = substr($queryParams, 1, null);
+        $queryParamsEncoded = mb_substr($queryParams, 1, null);
 
         /**
          * Exécute la requête.

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace SmartpingApi\Exception;
 
-class XMLConversionException extends \RuntimeException
+use RuntimeException;
+
+final class XMLConversionException extends RuntimeException
 {
     public static function make(): self
     {

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace SmartpingApi\Exception;
 
-class AuthentificationException extends \RuntimeException
+use RuntimeException;
+
+final class AuthentificationException extends RuntimeException
 {
     public static function make(string $error): self
     {

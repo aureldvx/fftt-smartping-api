@@ -64,7 +64,7 @@ final readonly class PartieBaseClassement implements CanSerialize
 
         if (str_starts_with($data['advclaof'], 'N')) {
             $model->adversaireNumerote = true;
-            $model->numeroAdversaire = (int) substr($data['advclaof'], 1);
+            $model->numeroAdversaire = (int) mb_substr($data['advclaof'], 1);
             $model->classementAdversaire = null;
         } else {
             $model->adversaireNumerote = false;

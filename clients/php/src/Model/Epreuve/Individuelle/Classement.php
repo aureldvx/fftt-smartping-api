@@ -34,7 +34,7 @@ final readonly class Classement implements CanSerialize
         list(
             'numero' => $model->numero,
             'points' => $model->points
-            ) = JoueurUtils::parseClassementJoueur($data['clt']);
+        ) = JoueurUtils::parseClassementJoueur($data['clt']);
         $model->numerote = $model->numero !== null;
         $model->club = $data['club'];
         $model->pointsCriterium = $data['points'];

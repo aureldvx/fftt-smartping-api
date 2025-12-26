@@ -5,11 +5,10 @@ declare(strict_types=1);
 namespace SmartpingApi\Model\Organisme;
 
 use SmartpingApi\Enum\TypeOrganisme;
-use SmartpingApi\Model\CanDeserialize;
 use SmartpingApi\Model\CanSerialize;
 use SmartpingApi\Util\ValueTransformer;
 
-final readonly class Organisme implements CanSerialize, CanDeserialize
+final readonly class Organisme implements CanSerialize
 {
     private int $id;
 
@@ -29,7 +28,7 @@ final readonly class Organisme implements CanSerialize, CanDeserialize
         $model->libelle = $data['libelle'];
         $model->code = $data['code'];
         $model->idOrganismeParent = ValueTransformer::nullOrInt($data['idPere']);
-        $model->type = TypeOrganisme::from(substr($data['code'], 0, 1));
+        $model->type = TypeOrganisme::from(mb_substr($data['code'], 0, 1));
 
         return $model;
     }
@@ -57,19 +56,5 @@ final readonly class Organisme implements CanSerialize, CanDeserialize
     public function type(): TypeOrganisme
     {
         return $this->type;
-    }
-
-    /**
-     * @return array{id: int, libelle: string, code: string, id_organisme_parent: string, type: string}
-     */
-    public function toArray(): array
-    {
-        return [
-            'id' => $this->id,
-            'libelle' => $this->libelle,
-            'code' => $this->code,
-            'id_organisme_parent' => $this->idOrganismeParent,
-            'type' => $this->type->value,
-        ];
     }
 }

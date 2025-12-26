@@ -54,7 +54,7 @@ final class OrganismeService implements OrganismeContract
         ));
     }
 
-    protected function remplirOrganismes() : void
+    private function remplirOrganismes(): void
     {
         if (count($this->organismes) > 0) {
             return;
@@ -62,7 +62,7 @@ final class OrganismeService implements OrganismeContract
 
         $orgTypes = TypeOrganisme::cases();
 
-        $fetch = function (TypeOrganisme $orgType) : array {
+        $fetch = function (TypeOrganisme $orgType): array {
             $response = $this->httpClient->fetch(API::XML_ORGANISME, ['type' => $orgType->value]);
 
             if (array_key_exists('id', $response['organisme'])) {

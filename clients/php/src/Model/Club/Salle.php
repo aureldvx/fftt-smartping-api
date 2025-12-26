@@ -11,11 +11,17 @@ final readonly class Salle
         public string $ligneAdresse1,
         public string $codePostal,
         public string $ville,
-        public ? string $ligneAdresse2 = null,
-        public ? string $ligneAdresse3 = null,
+        public ?string $ligneAdresse2 = null,
+        public ?string $ligneAdresse3 = null,
         public ?float $latitude = null,
         public ?float $longitude = null,
-    ) {}
+    ) {
+    }
+
+    public function __toString(): string
+    {
+        return $this->adresseComplete();
+    }
 
     public function adresseComplete(): string
     {
@@ -32,10 +38,5 @@ final readonly class Salle
         $address .= " - $this->codePostal $this->ville";
 
         return $address;
-    }
-
-    public function __toString(): string
-    {
-        return $this->adresseComplete();
     }
 }

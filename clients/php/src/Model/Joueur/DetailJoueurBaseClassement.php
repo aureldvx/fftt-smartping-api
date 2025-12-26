@@ -70,7 +70,7 @@ final readonly class DetailJoueurBaseClassement implements CanSerialize
         $model->numerote = str_starts_with($data['clast'], 'N');
 
         if ($model->numerote) {
-            $model->numero = (int) substr($data['clast'], 1);
+            $model->numero = (int) mb_substr($data['clast'], 1);
             $model->classementOfficiel = null;
         } else {
             $model->numero = null;

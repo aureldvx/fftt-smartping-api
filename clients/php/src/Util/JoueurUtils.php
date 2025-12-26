@@ -55,7 +55,9 @@ final class JoueurUtils
             matches: $matches,
         );
 
-        if ($result !== 1) return ['', ''];
+        if ($result !== 1) {
+            return ['', ''];
+        }
 
         return [$matches['nom'], $matches['prenom']];
     }

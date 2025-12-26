@@ -21,10 +21,10 @@ final class ScoreUtils
             if ($score < 0 && $score >= -9) {
                 /** Si c'est une manche perdue aux avantages. */
                 $scoresDetailles[] = [abs($score), 11];
-            } else if ($score < 0 && $score < -9) {
+            } elseif ($score < 0 && $score < -9) {
                 /** Si c'est une manche perdue avant les avantages. */
                 $scoresDetailles[] = [abs($score), abs($score) + 2];
-            } else if ($score >= 0 && $score < 10) {
+            } elseif ($score >= 0 && $score < 10) {
                 /** Si c'est une manche gagnée avant les avantages. */
                 $scoresDetailles[] = [11, abs($score)];
             } else {

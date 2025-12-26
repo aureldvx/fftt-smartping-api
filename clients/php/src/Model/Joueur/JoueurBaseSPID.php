@@ -45,9 +45,9 @@ final readonly class JoueurBaseSPID implements CanSerialize
         $model->pointsOfficiels = (float) $data['points'];
 
         if (str_contains($data['points'], '.')) {
-            $model->classementOfficiel = (int) substr(explode('.', $data['points'])[0], 0, -2);
+            $model->classementOfficiel = (int) mb_substr(explode('.', $data['points'])[0], 0, -2);
         } else {
-            $model->classementOfficiel = (int) substr($data['points'], 0, -2);
+            $model->classementOfficiel = (int) mb_substr($data['points'], 0, -2);
         }
 
         return $model;

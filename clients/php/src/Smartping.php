@@ -17,8 +17,6 @@ use SmartpingApi\Service\OrganismeService;
 
 final readonly class Smartping
 {
-    private HttpClientContract $httpClient;
-
     public ActualitesService $actualites;
 
     public AuthentificationService $authentification;
@@ -34,6 +32,8 @@ final readonly class Smartping
     public JoueurService $joueur;
 
     public OrganismeService $organisme;
+
+    private HttpClientContract $httpClient;
 
     private function __construct(HttpClientContract $httpClient)
     {

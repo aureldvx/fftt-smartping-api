@@ -11,5 +11,6 @@ final readonly class Correspondant
         public string $prenom,
         public string $email,
         public string $telephone,
-    ) {}
+    ) {
+    }
 }

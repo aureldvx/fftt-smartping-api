@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace SmartpingApi\Exception;
 
-class HttpStatusException extends \RuntimeException
+use RuntimeException;
+
+final class HttpStatusException extends RuntimeException
 {
     public static function make(int $code): self
     {

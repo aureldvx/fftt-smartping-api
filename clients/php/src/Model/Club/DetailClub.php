@@ -81,12 +81,12 @@ final readonly class DetailClub implements CanSerialize
         return $this->correspondant;
     }
 
-    public function siteInternet() : ?string
+    public function siteInternet(): ?string
     {
         return $this->siteInternet;
     }
 
-    public function dateValidation() : ?Carbon
+    public function dateValidation(): ?Carbon
     {
         return $this->dateValidation;
     }

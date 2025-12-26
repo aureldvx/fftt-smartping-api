@@ -56,4 +56,3 @@ final readonly class DetailRencontre implements CanSerialize
         return $this->parties;
     }
 }
-

@@ -37,7 +37,7 @@ final readonly class JoueurService implements JoueurContract
 
         $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR, $params);
 
-        return array_map(fn($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
+        return array_map(fn ($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
     }
 
     /** @inheritdoc */
@@ -56,7 +56,7 @@ final readonly class JoueurService implements JoueurContract
 
         $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR_O, $params);
 
-        return array_map(fn($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
+        return array_map(fn ($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
     }
 
     /** @inheritdoc */
@@ -70,7 +70,7 @@ final readonly class JoueurService implements JoueurContract
     {
         $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR, ['club' => $numeroClub]);
 
-        return array_map(fn($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
+        return array_map(fn ($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
     }
 
     /** @inheritdoc */
@@ -85,7 +85,7 @@ final readonly class JoueurService implements JoueurContract
 
         $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR_O, $params);
 
-        return array_map(fn($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
+        return array_map(fn ($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
     }
 
     /** @inheritdoc */
@@ -93,7 +93,7 @@ final readonly class JoueurService implements JoueurContract
     {
         $response = $this->httpClient->fetch(API::XML_LICENCE_B, ['club' => $numeroClub]);
 
-        return array_map(fn($item) => DetailJoueur::fromArray($item), $response['licence'] ?? []);
+        return array_map(fn ($item) => DetailJoueur::fromArray($item), $response['licence'] ?? []);
     }
 
     /** @inheritdoc */
@@ -135,7 +135,7 @@ final readonly class JoueurService implements JoueurContract
     {
         $response = $this->httpClient->fetch(API::XML_PARTIE_MYSQL, ['licence' => $licence]);
 
-        return array_map(fn($item) => PartieBaseClassement::fromArray($item), $response['partie'] ?? []);
+        return array_map(fn ($item) => PartieBaseClassement::fromArray($item), $response['partie'] ?? []);
     }
 
     /** @inheritdoc */
@@ -143,7 +143,7 @@ final readonly class JoueurService implements JoueurContract
     {
         $response = $this->httpClient->fetch(API::XML_PARTIE, ['licence' => $licence]);
 
-        return array_map(fn($item) => PartieBaseSPID::fromArray($item), $response['partie'] ?? []);
+        return array_map(fn ($item) => PartieBaseSPID::fromArray($item), $response['partie'] ?? []);
     }
 
     /** @inheritdoc */
@@ -154,7 +154,7 @@ final readonly class JoueurService implements JoueurContract
         $parties = [];
 
         foreach ($spid as $partieSPID) {
-            $partieClassement = array_find($classement, fn(PartieBaseClassement $partie) => $partie->partieId() === $partieSPID->partieId());
+            $partieClassement = array_find($classement, fn (PartieBaseClassement $partie) => $partie->partieId() === $partieSPID->partieId());
             $parties[] = Partie::fromModels($partieSPID, $partieClassement);
         }
 
@@ -166,19 +166,19 @@ final readonly class JoueurService implements JoueurContract
     {
         $response = $this->httpClient->fetch(API::XML_HISTO_CLASSEMENT, ['licence' => $licence]);
 
-        return array_map(fn($item) => HistoriqueClassement::fromArray($item), $response['histo'] ?? []);
+        return array_map(fn ($item) => HistoriqueClassement::fromArray($item), $response['histo'] ?? []);
     }
 
     /** @inheritdoc */
     public function partiesValidees(string $licence): array
     {
-        return array_values(array_filter($this->historiqueParties($licence), fn(Partie $partie) => $partie->valide()));
+        return array_values(array_filter($this->historiqueParties($licence), fn (Partie $partie) => $partie->valide()));
     }
 
     /** @inheritdoc */
     public function partiesNonValidees(string $licence): array
     {
-        return array_values(array_filter($this->historiqueParties($licence), fn(Partie $partie) => ! $partie->valide()));
+        return array_values(array_filter($this->historiqueParties($licence), fn (Partie $partie) => ! $partie->valide()));
     }
 
     /** @inheritdoc */
@@ -212,7 +212,7 @@ final readonly class JoueurService implements JoueurContract
 
         return array_reduce(
             array: $this->partiesNonValidees($licence),
-            callback: function (float $total, Partie $partie) use($joueur, $dateDebut, $dateFin) {
+            callback: function (float $total, Partie $partie) use ($joueur, $dateDebut, $dateFin) {
                 if ($partie->date()->isAfter($dateDebut) && $partie->date()->isBefore($dateFin)) {
                     $resultat = EstimationPoint::estimer(
                         classementJoueurA: $joueur->pointsOfficiels(),

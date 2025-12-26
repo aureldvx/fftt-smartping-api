@@ -24,7 +24,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_DEP_2, ['dep' => $departement]);
 
         return array_map(
-            fn(array $clubData) => Club::fromArray($clubData),
+            fn (array $clubData) => Club::fromArray($clubData),
             $response['club'] ?? []
         );
     }
@@ -35,7 +35,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_B, ['code' => $codePostal]);
 
         return array_map(
-            fn(array $clubData) => Club::fromArray($clubData),
+            fn (array $clubData) => Club::fromArray($clubData),
             $response['club'] ?? []
         );
     }
@@ -57,7 +57,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_B, ['ville' => $nom]);
 
         return array_map(
-            fn(array $clubData) => Club::fromArray($clubData),
+            fn (array $clubData) => Club::fromArray($clubData),
             $response['club'] ?? []
         );
     }
@@ -85,7 +85,7 @@ final readonly class ClubService implements ClubContract
         ]);
 
         return array_map(
-            fn(array $clubData) => Equipe::fromArray($clubData),
+            fn (array $clubData) => Equipe::fromArray($clubData),
             $response['equipe'] ?? []
         );
     }

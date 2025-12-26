@@ -36,7 +36,7 @@ final readonly class JoueurBaseClassement implements CanSerialize
 
         if (str_starts_with($data['clast'], 'N')) {
             $model->numerote = true;
-            $model->numero = (int) substr($data['clast'], 1);
+            $model->numero = (int) mb_substr($data['clast'], 1);
         } else {
             $model->numerote = false;
             $model->classement = (int) $data['clast'];
