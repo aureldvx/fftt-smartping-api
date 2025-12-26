@@ -1,0 +1,232 @@
+<?php
+
+declare(strict_types=1);
+
+namespace SmartpingApi\Service;
+
+use SmartpingApi\Contract\JoueurContract;
+use SmartpingApi\Core\HttpClientContract;
+use SmartpingApi\Enum\API;
+use SmartpingApi\Model\Joueur\DetailJoueur;
+use SmartpingApi\Model\Joueur\DetailJoueurBaseClassement;
+use SmartpingApi\Model\Joueur\DetailJoueurBaseSPID;
+use SmartpingApi\Model\Joueur\HistoriqueClassement;
+use SmartpingApi\Model\Joueur\JoueurBaseClassement;
+use SmartpingApi\Model\Joueur\JoueurBaseSPID;
+use SmartpingApi\Model\Partie\Partie;
+use SmartpingApi\Model\Partie\PartieBaseClassement;
+use SmartpingApi\Model\Partie\PartieBaseSPID;
+use SmartpingApi\Util\DateTimeUtils;
+use SmartpingApi\Util\EstimationPoint;
+
+final readonly class JoueurService implements JoueurContract
+{
+    public function __construct(private HttpClientContract $httpClient)
+    {
+    }
+
+    /** @inheritdoc */
+    public function joueursParNomSurBaseClassement(string $nom, ?string $prenom = null): array
+    {
+        $params = [];
+        $params['nom'] = $nom;
+
+        if ($prenom) {
+            $params['prenom'] = $prenom;
+        }
+
+        $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR, $params);
+
+        return array_map(fn($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function joueursParNomSurBaseSPID(string $nom, ?string $prenom = null, bool $valide = false): array
+    {
+        $params = [];
+        $params['nom'] = $nom;
+
+        if ($prenom) {
+            $params['prenom'] = $prenom;
+        }
+
+        if ($valide) {
+            $params['valid'] = 1;
+        }
+
+        $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR_O, $params);
+
+        return array_map(fn($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function joueursParNom(string $nom, ?string $prenom = null, bool $valide = false): array
+    {
+        return $this->joueursParNomSurBaseSPID($nom, $prenom, $valide);
+    }
+
+    /** @inheritdoc */
+    public function joueursParClubSurBaseClassement(string $numeroClub): array
+    {
+        $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR, ['club' => $numeroClub]);
+
+        return array_map(fn($item) => JoueurBaseClassement::fromArray($item), $response['joueur'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function joueursParClubSurBaseSPID(string $numeroClub, bool $valide = false): array
+    {
+        $params = [];
+        $params['club'] = $numeroClub;
+
+        if ($valide) {
+            $params['valid'] = 1;
+        }
+
+        $response = $this->httpClient->fetch(API::XML_LISTE_JOUEUR_O, $params);
+
+        return array_map(fn($item) => JoueurBaseSPID::fromArray($item), $response['joueur'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function joueursParClub(string $numeroClub): array
+    {
+        $response = $this->httpClient->fetch(API::XML_LICENCE_B, ['club' => $numeroClub]);
+
+        return array_map(fn($item) => DetailJoueur::fromArray($item), $response['licence'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function joueurParLicenceSurBaseClassement(string $licence): ?DetailJoueurBaseClassement
+    {
+        $response = $this->httpClient->fetch(API::XML_JOUEUR, ['licence' => $licence]);
+
+        if (count($response) === 0) {
+            return null;
+        }
+
+        return DetailJoueurBaseClassement::fromArray($response['joueur']);
+    }
+
+    public function joueurParLicenceSurBaseSPID(string $licence): ?DetailJoueurBaseSPID
+    {
+        $response = $this->httpClient->fetch(API::XML_LICENCE, ['licence' => $licence]);
+
+        if (count($response) === 0) {
+            return null;
+        }
+
+        return DetailJoueurBaseSPID::fromArray($response['licence']);
+    }
+
+    public function joueurParLicence(string $licence): ?DetailJoueur
+    {
+        $response = $this->httpClient->fetch(API::XML_LICENCE_B, ['licence' => $licence]);
+
+        if (count($response) === 0) {
+            return null;
+        }
+
+        return DetailJoueur::fromArray($response['licence']);
+    }
+
+    /** @inheritdoc */
+    public function historiquePartiesBaseClassement(string $licence): array
+    {
+        $response = $this->httpClient->fetch(API::XML_PARTIE_MYSQL, ['licence' => $licence]);
+
+        return array_map(fn($item) => PartieBaseClassement::fromArray($item), $response['partie'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function historiquePartiesBaseSPID(string $licence): array
+    {
+        $response = $this->httpClient->fetch(API::XML_PARTIE, ['licence' => $licence]);
+
+        return array_map(fn($item) => PartieBaseSPID::fromArray($item), $response['partie'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function historiqueParties(string $licence): array
+    {
+        $classement = $this->historiquePartiesBaseClassement($licence);
+        $spid = $this->historiquePartiesBaseSPID($licence);
+        $parties = [];
+
+        foreach ($spid as $partieSPID) {
+            $partieClassement = array_find($classement, fn(PartieBaseClassement $partie) => $partie->partieId() === $partieSPID->partieId());
+            $parties[] = Partie::fromModels($partieSPID, $partieClassement);
+        }
+
+        return $parties;
+    }
+
+    /** @inheritdoc */
+    public function historiqueClassementOfficiel(string $licence): array
+    {
+        $response = $this->httpClient->fetch(API::XML_HISTO_CLASSEMENT, ['licence' => $licence]);
+
+        return array_map(fn($item) => HistoriqueClassement::fromArray($item), $response['histo'] ?? []);
+    }
+
+    /** @inheritdoc */
+    public function partiesValidees(string $licence): array
+    {
+        return array_values(array_filter($this->historiqueParties($licence), fn(Partie $partie) => $partie->valide()));
+    }
+
+    /** @inheritdoc */
+    public function partiesNonValidees(string $licence): array
+    {
+        return array_values(array_filter($this->historiqueParties($licence), fn(Partie $partie) => ! $partie->valide()));
+    }
+
+    /** @inheritdoc */
+    public function pointsVirtuels(string $licence): float
+    {
+        $joueur = $this->joueurParLicence($licence);
+        $parties = $this->partiesNonValidees($licence);
+
+        return array_reduce(
+            array: $parties,
+            callback: function (float $total, Partie $partie) use ($joueur) {
+                $resultat = EstimationPoint::estimer(
+                    classementJoueurA: $joueur->pointsOfficiels(),
+                    classementJoueurB: $partie->pointsAdversaire(),
+                    victoire: $partie->victoire(),
+                    coefficient: $partie->coefficient(),
+                );
+
+                return $total + $resultat;
+            },
+            initial: 0,
+        );
+    }
+
+    /** @inheritdoc */
+    public function pointsVirtuelsSurPeriode(string $licence, string $debut, string $fin): float
+    {
+        $joueur = $this->joueurParLicence($licence);
+        $dateDebut = DateTimeUtils::date($debut, format: 'd/m/Y');
+        $dateFin = DateTimeUtils::date($fin, format: 'd/m/Y');
+
+        return array_reduce(
+            array: $this->partiesNonValidees($licence),
+            callback: function (float $total, Partie $partie) use($joueur, $dateDebut, $dateFin) {
+                if ($partie->date()->isAfter($dateDebut) && $partie->date()->isBefore($dateFin)) {
+                    $resultat = EstimationPoint::estimer(
+                        classementJoueurA: $joueur->pointsOfficiels(),
+                        classementJoueurB: $partie->pointsAdversaire(),
+                        victoire: $partie->victoire(),
+                        coefficient: $partie->coefficient(),
+                    );
+
+                    return $total + $resultat;
+                }
+
+                return $total;
+            },
+            initial: 0,
+        );
+    }
+}

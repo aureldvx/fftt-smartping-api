@@ -1,0 +1,112 @@
+<?php
+
+declare(strict_types=1);
+
+namespace SmartpingApi\Model\Partie;
+
+use Carbon\Carbon;
+use SmartpingApi\Enum\Sexe;
+use SmartpingApi\Model\CanSerialize;
+use SmartpingApi\Util\DateTimeUtils;
+use SmartpingApi\Util\JoueurUtils;
+use SmartpingApi\Util\ValueTransformer;
+
+final readonly class PartieBaseClassement implements CanSerialize
+{
+    private string $licence;
+
+    private string $licenceAdversaire;
+
+    private bool $victoire;
+
+    private ?int $numeroJournee;
+
+    private string $codeChampionnat;
+
+    private Carbon $date;
+
+    private Sexe $sexeAdversaire;
+
+    private string $nomAdversaire;
+
+    private string $prenomAdversaire;
+
+    private bool $adversaireNumerote;
+
+    private ?int $numeroAdversaire;
+
+    private float $pointsObtenus;
+
+    private float $coefficient;
+
+    private ?int $classementAdversaire;
+
+    private int $partieId;
+
+    private bool $valide;
+
+    public static function fromArray(array $data): self
+    {
+        $model = new self;
+
+        $model->valide = true;
+        $model->licence = $data['licence'];
+        $model->licenceAdversaire = $data['advlic'];
+        $model->victoire = $data['vd'] === 'V';
+        $model->numeroJournee = ValueTransformer::nullOrInt($data['numjourn']);
+        $model->codeChampionnat = $data['codechamp'];
+        $model->date = DateTimeUtils::date($data['date'], format: 'd/m/Y');
+        $model->sexeAdversaire = Sexe::from($data['advsexe']);
+        list($model->nomAdversaire, $model->prenomAdversaire) = JoueurUtils::separerNomPrenom($data['advnompre']);
+        $model->pointsObtenus = (float) $data['pointres'];
+        $model->coefficient = (float) $data['coefchamp'];
+        $model->partieId = (int) $data['idpartie'];
+
+        if (str_starts_with($data['advclaof'], 'N')) {
+            $model->adversaireNumerote = true;
+            $model->numeroAdversaire = (int) substr($data['advclaof'], 1);
+            $model->classementAdversaire = null;
+        } else {
+            $model->adversaireNumerote = false;
+            $model->numeroAdversaire = null;
+            $model->classementAdversaire = (int) $data['advclaof'];
+        }
+
+        return $model;
+    }
+
+    public function partieId(): int
+    {
+        return $this->partieId;
+    }
+
+    public function licence(): string
+    {
+        return $this->licence;
+    }
+
+    public function licenceAdversaire(): string
+    {
+        return $this->licenceAdversaire;
+    }
+
+    public function numeroJournee(): ?int
+    {
+        return $this->numeroJournee;
+    }
+
+    public function codeChampionnat(): string
+    {
+        return $this->codeChampionnat;
+    }
+
+    public function sexeAdversaire(): Sexe
+    {
+        return $this->sexeAdversaire;
+    }
+
+    public function pointsObtenus(): float
+    {
+        return $this->pointsObtenus;
+    }
+}
