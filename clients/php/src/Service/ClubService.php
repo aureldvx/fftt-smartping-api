@@ -24,7 +24,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_DEP_2, ['dep' => $departement]);
 
         return array_map(
-            fn (array $clubData) => Club::fromArray($clubData),
+            Club::fromArray(...),
             $response['club'] ?? []
         );
     }
@@ -35,7 +35,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_B, ['code' => $codePostal]);
 
         return array_map(
-            fn (array $clubData) => Club::fromArray($clubData),
+            Club::fromArray(...),
             $response['club'] ?? []
         );
     }
@@ -46,7 +46,7 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_B, ['ville' => $ville]);
 
         return array_map(
-            fn (array $clubData) => Club::fromArray($clubData),
+            Club::fromArray(...),
             $response['club'] ?? []
         );
     }
@@ -57,13 +57,13 @@ final readonly class ClubService implements ClubContract
         $response = $this->httpClient->fetch(API::XML_CLUB_B, ['ville' => $nom]);
 
         return array_map(
-            fn (array $clubData) => Club::fromArray($clubData),
+            Club::fromArray(...),
             $response['club'] ?? []
         );
     }
 
     /** @inheritdoc */
-    public function detailClub(string $code, ?string $idEquipe = null): ?DetailClub
+    public function detailClub(string $code, ?string $idEquipe = null): \SmartpingApi\Model\Club\DetailClub
     {
         $params = ['club' => $code];
 
@@ -85,7 +85,7 @@ final readonly class ClubService implements ClubContract
         ]);
 
         return array_map(
-            fn (array $clubData) => Equipe::fromArray($clubData),
+            Equipe::fromArray(...),
             $response['equipe'] ?? []
         );
     }

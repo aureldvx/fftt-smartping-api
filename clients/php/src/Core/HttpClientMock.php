@@ -45,7 +45,7 @@ final class HttpClientMock extends AbstractHttpClient implements HttpClientContr
             $endpoint === API::XML_ORGANISME && $requestParams['type'] === 'D' => 'xml_organisme/departements.xml',
             $endpoint === API::XML_PARTIE => 'xml_partie/default.xml',
             $endpoint === API::XML_PARTIE_MYSQL => 'xml_partie_mysql/default.xml',
-            $endpoint === API::XML_RENCONTRE_EQU && str_contains($requestParams['poule'], '|') => 'xml_rencontre_equ/multiple.xml',
+            $endpoint === API::XML_RENCONTRE_EQU && str_contains((string) $requestParams['poule'], '|') => 'xml_rencontre_equ/multiple.xml',
             $endpoint === API::XML_RENCONTRE_EQU => 'xml_rencontre_equ/unique.xml',
             $endpoint === API::XML_RES_CLA => 'xml_res_cla/numerote.xml',
             $endpoint === API::XML_RESULT_EQU && $requestParams['action'] === 'poule' => 'xml_result_equ/poules.xml',

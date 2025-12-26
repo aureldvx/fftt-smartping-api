@@ -59,7 +59,7 @@ final readonly class ValueTransformer
         }
 
         if (is_array($value)) {
-            return !empty($value);
+            return $value !== [];
         }
 
         return $valid;

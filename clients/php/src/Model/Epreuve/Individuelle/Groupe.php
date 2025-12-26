@@ -26,7 +26,7 @@ final readonly class Groupe implements CanSerialize
 
         $model->libelle = $data['libelle'];
 
-        parse_str($data['lien'], $linkParts);
+        parse_str((string) $data['lien'], $linkParts);
 
         $model->idEpreuve = (int) $linkParts['epr'];
         $model->idDivision = (int) $linkParts['res_division'];

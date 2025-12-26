@@ -40,4 +40,36 @@ final readonly class PartieRencontre implements CanSerialize
 
         return $model;
     }
+
+    public function joueurA(): ?string
+    {
+        return $this->joueurA;
+    }
+
+    public function joueurB(): ?string
+    {
+        return $this->joueurB;
+    }
+
+    public function scoreA(): ?int
+    {
+        return $this->scoreA;
+    }
+
+    public function scoreB(): ?int
+    {
+        return $this->scoreB;
+    }
+
+    /** @return array<int> */
+    public function detailManches(): array
+    {
+        return $this->detailManches;
+    }
+
+    /** @return array<array-key, array<int>> */
+    public function detailManchesComplet(): array
+    {
+        return $this->detailManchesComplet;
+    }
 }

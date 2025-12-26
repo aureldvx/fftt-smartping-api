@@ -27,8 +27,8 @@ final readonly class Partie implements CanSerialize
         $model = new self;
 
         $model->libelle = $data['libelle'];
-        list($model->nomGagnant, $model->prenomGagnant) = JoueurUtils::separerNomPrenom($data['vain']);
-        list($model->nomPerdant, $model->prenomPerdant) = JoueurUtils::separerNomPrenom($data['perd']);
+        [$model->nomGagnant, $model->prenomGagnant] = JoueurUtils::separerNomPrenom($data['vain']);
+        [$model->nomPerdant, $model->prenomPerdant] = JoueurUtils::separerNomPrenom($data['perd']);
         $model->gagneParForfait = ValueTransformer::exists($data['forfait']);
 
         return $model;

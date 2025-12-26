@@ -38,8 +38,8 @@ final readonly class PartieBaseSPID implements CanSerialize
         $model = new self;
 
         $model->date = DateTimeUtils::date($data['date'], format: 'd/m/Y');
-        list($model->nom, $model->prenom) = JoueurUtils::separerNomPrenom($data['nom']);
-        $model->numerote = str_starts_with($data['classement'], 'N');
+        [$model->nom, $model->prenom] = JoueurUtils::separerNomPrenom($data['nom']);
+        $model->numerote = str_starts_with((string) $data['classement'], 'N');
         $model->epreuve = $data['epreuve'];
         $model->victoire = $data['victoire'] === 'V';
         $model->forfait = (bool) $data['forfait'];

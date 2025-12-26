@@ -20,6 +20,6 @@ final readonly class ActualitesService implements ActualitesContract
     {
         $response = $this->httpClient->fetch(API::XML_NEW_ACTU, []);
 
-        return array_map(fn ($item) => Actualite::fromArray($item), $response['news']);
+        return array_map(Actualite::fromArray(...), $response['news']);
     }
 }

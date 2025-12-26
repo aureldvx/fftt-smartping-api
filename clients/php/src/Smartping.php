@@ -33,11 +33,8 @@ final readonly class Smartping
 
     public OrganismeService $organisme;
 
-    private HttpClientContract $httpClient;
-
-    private function __construct(HttpClientContract $httpClient)
+    private function __construct(private HttpClientContract $httpClient)
     {
-        $this->httpClient = $httpClient;
         $this->actualites = new ActualitesService($this->httpClient);
         $this->authentification = new AuthentificationService($this->httpClient);
         $this->club = new ClubService($this->httpClient);
@@ -57,7 +54,7 @@ final readonly class Smartping
      */
     public static function create(string $appId, string $appKey, string $serial, ?HttpClientContract $httpClient = null): self
     {
-        if (! $httpClient) {
+        if (!$httpClient instanceof \SmartpingApi\Core\HttpClientContract) {
             $httpClient = new HttpClient($appId, $appKey, $serial);
         }
 

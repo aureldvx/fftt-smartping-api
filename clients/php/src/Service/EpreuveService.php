@@ -25,7 +25,7 @@ final readonly class EpreuveService implements EpreuveContract
             'type' => $contestType->value,
         ]);
 
-        return array_map(fn ($item) => Epreuve::fromArray($item), $response['epreuve'] ?? []);
+        return array_map(Epreuve::fromArray(...), $response['epreuve'] ?? []);
     }
 
     /** @inheritdoc */
@@ -37,6 +37,6 @@ final readonly class EpreuveService implements EpreuveContract
             'type' => $contestType->value,
         ]);
 
-        return array_map(fn ($item) => Division::fromArray($item), $response['division'] ?? []);
+        return array_map(Division::fromArray(...), $response['division'] ?? []);
     }
 }

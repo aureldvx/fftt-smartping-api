@@ -57,7 +57,7 @@ final readonly class PartieBaseClassement implements CanSerialize
         $model->codeChampionnat = $data['codechamp'];
         $model->date = DateTimeUtils::date($data['date'], format: 'd/m/Y');
         $model->sexeAdversaire = Sexe::from($data['advsexe']);
-        list($model->nomAdversaire, $model->prenomAdversaire) = JoueurUtils::separerNomPrenom($data['advnompre']);
+        [$model->nomAdversaire, $model->prenomAdversaire] = JoueurUtils::separerNomPrenom($data['advnompre']);
         $model->pointsObtenus = (float) $data['pointres'];
         $model->coefficient = (float) $data['coefchamp'];
         $model->partieId = (int) $data['idpartie'];
@@ -108,5 +108,50 @@ final readonly class PartieBaseClassement implements CanSerialize
     public function pointsObtenus(): float
     {
         return $this->pointsObtenus;
+    }
+
+    public function coefficient(): float
+    {
+        return $this->coefficient;
+    }
+
+    public function valide(): bool
+    {
+        return $this->valide;
+    }
+
+    public function victoire(): bool
+    {
+        return $this->victoire;
+    }
+
+    public function adversaireNumerote(): bool
+    {
+        return $this->adversaireNumerote;
+    }
+
+    public function numeroAdversaire(): ?int
+    {
+        return $this->numeroAdversaire;
+    }
+
+    public function classementAdversaire(): ?int
+    {
+        return $this->classementAdversaire;
+    }
+
+    public function date(): Carbon
+    {
+        return $this->date;
+    }
+
+    public function nomAdversaire(): string
+    {
+        return $this->nomAdversaire;
+    }
+
+    public function prenomAdversaire(): string
+    {
+        return $this->prenomAdversaire;
     }
 }

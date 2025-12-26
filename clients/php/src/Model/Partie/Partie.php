@@ -66,7 +66,7 @@ final readonly class Partie
         $model->codeChampionnat = $baseClassement?->codeChampionnat();
         $model->sexeAdversaire = $baseClassement?->sexeAdversaire();
         $model->pointsObtenus = $baseClassement?->pointsObtenus();
-        $model->valide = $baseClassement !== null;
+        $model->valide = $baseClassement instanceof \SmartpingApi\Model\Partie\PartieBaseClassement;
 
         return $model;
     }

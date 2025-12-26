@@ -18,11 +18,7 @@ final readonly class JoueurBaseClassement implements CanSerialize
 
     private string $numeroClub;
 
-    private bool $numerote;
-
     private ?int $classement;
-
-    private ?int $numero;
 
     public static function fromArray(array $data): self
     {
@@ -34,11 +30,7 @@ final readonly class JoueurBaseClassement implements CanSerialize
         $model->club = $data['club'];
         $model->numeroClub = $data['nclub'];
 
-        if (str_starts_with($data['clast'], 'N')) {
-            $model->numerote = true;
-            $model->numero = (int) mb_substr($data['clast'], 1);
-        } else {
-            $model->numerote = false;
+        if (!str_starts_with((string) $data['clast'], 'N')) {
             $model->classement = (int) $data['clast'];
         }
 

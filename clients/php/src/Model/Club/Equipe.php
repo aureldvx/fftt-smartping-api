@@ -40,7 +40,7 @@ final readonly class Equipe implements CanSerialize
         $model->libelleDivision = $data['libdivision'];
         $model->lienDivision = $data['liendivision'];
 
-        parse_str($data['liendivision'], $linkParts);
+        parse_str((string) $data['liendivision'], $linkParts);
 
         $model->idPoule = (int) $linkParts['cx_poule'];
         $model->idDivision = (int) $linkParts['D1'];

@@ -34,7 +34,7 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
      */
     public function fetch(API $endpoint, array $requestParams): array
     {
-        list('response' => $rawResponse, 'contentType' => $contentType) = self::executeCall($endpoint, $requestParams);
+        ['response' => $rawResponse, 'contentType' => $contentType] = self::executeCall($endpoint, $requestParams);
         $sanitizedResponse = self::sanitizeResponse($rawResponse, $contentType);
 
         return self::convertXmlToObject($sanitizedResponse);
@@ -43,8 +43,6 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
     /**
      * Appelle un endpoint de la Fédération.
      *
-     * @param API $endpoint
-     * @param array $requestParams
      *
      * @return array{response: string, contentType: string}
      *
@@ -75,13 +73,13 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
          */
         $queryParams = '';
         foreach ($params as $paramKey => $paramValue) {
-            $queryParams .= "&$paramKey=" . urlencode($paramValue);
+            $queryParams .= sprintf('&%s=', $paramKey) . urlencode($paramValue);
         }
 
         /**
          * Supprime le premier `&`.
          */
-        $queryParamsEncoded = mb_substr($queryParams, 1, null);
+        $queryParamsEncoded = mb_substr($queryParams, 1);
 
         /**
          * Exécute la requête.
@@ -94,10 +92,10 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
         ]);
 
         $response = (string) curl_exec($ch);
-        $httpCode = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 
-        if (curl_error($ch)) {
+        if (curl_error($ch) !== '' && curl_error($ch) !== '0') {
             throw HttpException::make(curl_error($ch));
         }
 

@@ -20,7 +20,7 @@ final readonly class Poule implements CanSerialize
 
         $model->libelle = $data['libelle'];
 
-        parse_str($data['lien'], $linkParts);
+        parse_str((string) $data['lien'], $linkParts);
 
         $model->idPoule = (int) $linkParts['cx_poule'];
         $model->idDivision = (int) $linkParts['D1'];

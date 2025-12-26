@@ -7,11 +7,11 @@ use SmartpingApi\Enum\TypeOrganisme;
 use SmartpingApi\Model\Organisme\Organisme;
 use SmartpingApi\Smartping;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->api = Smartping::create('', '', '', new HttpClientMock);
 });
 
-it("devrait récupérer les organismes d'un type particulier", function () {
+it("devrait récupérer les organismes d'un type particulier", function (): void {
     $result = $this->api->organisme->organismesParType(TypeOrganisme::ZONE);
 
     expect($result)->toBeArray()
@@ -20,7 +20,7 @@ it("devrait récupérer les organismes d'un type particulier", function () {
         ->and($result[0]->code())->toBe('Z01');
 });
 
-it("devrait récupérer un organisme par son code", function () {
+it("devrait récupérer un organisme par son code", function (): void {
     $result = $this->api->organisme->organisme('D16');
 
     expect($result)
@@ -28,7 +28,7 @@ it("devrait récupérer un organisme par son code", function () {
         ->and($result->id())->toBe(131);
 });
 
-it("devrait récupérer les enfants d'un organisme", function () {
+it("devrait récupérer les enfants d'un organisme", function (): void {
     $result = $this->api->organisme->organismesEnfants('FEDE');
 
     expect($result)->toBeArray()

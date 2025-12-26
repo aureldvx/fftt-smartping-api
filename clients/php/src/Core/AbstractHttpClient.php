@@ -35,7 +35,7 @@ abstract class AbstractHttpClient
             $content = mb_convert_encoding($content, 'ISO-8859-1', 'UTF-8');
         }
 
-        return html_entity_decode($content);
+        return html_entity_decode((string) $content);
     }
 
     /**

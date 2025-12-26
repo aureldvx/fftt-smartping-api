@@ -67,10 +67,10 @@ final readonly class DetailJoueurBaseClassement implements CanSerialize
         $model->classementGlobalPrecedent = ValueTransformer::nullOrInt($data['aclglob'], zeroIncluded: false);
         $model->pointsMensuels = (float) $data['point'];
         $model->pointsMensuelsPrecedents = (float) $data['apoint'];
-        $model->numerote = str_starts_with($data['clast'], 'N');
+        $model->numerote = str_starts_with((string) $data['clast'], 'N');
 
         if ($model->numerote) {
-            $model->numero = (int) mb_substr($data['clast'], 1);
+            $model->numero = (int) mb_substr((string) $data['clast'], 1);
             $model->classementOfficiel = null;
         } else {
             $model->numero = null;

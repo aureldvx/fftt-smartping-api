@@ -5,15 +5,12 @@ declare(strict_types=1);
 namespace SmartpingApi\Util;
 
 use SmartpingApi\Enum\Sexe;
-use SmartpingApi\Model\Joueur\Joueur;
 use SmartpingApi\Model\Joueur\JoueurBaseClassement;
 use SmartpingApi\Model\Joueur\JoueurBaseSPID;
 
 final class JoueurUtils
 {
     /**
-     * @param string $classement
-     *
      * @return array{numero?: int, sexe?: Sexe, points?: float}
      */
     public static function parseClassementJoueur(string $classement): array
@@ -60,71 +57,5 @@ final class JoueurUtils
         }
 
         return [$matches['nom'], $matches['prenom']];
-    }
-
-    public static function fusionnerJoueurs(array $baseClassement, array $baseSPID): array
-    {
-        return [];
-    }
-
-    public static function fusionnerJoueur(JoueurBaseClassement $baseClassement, JoueurBaseSPID $baseSPID): Joueur
-    {
-        /**
-         * @param array $list
-         * @param RankedPlayer|SPIDPlayer $player
-         *
-         * @return array
-         */
-        $indexByLicence = /**
-         * @return (\SmartpingApi\Model\Player\RankedPlayer|\SmartpingApi\Model\Player\SPIDPlayer|mixed)[]
-         *
-         * @psalm-return array<\SmartpingApi\Model\Player\RankedPlayer|\SmartpingApi\Model\Player\SPIDPlayer|mixed>
-         */
-            function (array $list, RankedPlayer|SPIDPlayer $player): array {
-                $list[$player->licence()] = $player;
-
-                return $list;
-            };
-
-        /** @var RankedPlayer[] $rankedIndexed */
-        $rankedIndexed = empty($rankedCollection) ? [] : array_reduce($rankedCollection, $indexByLicence, []);
-
-        /** @var SPIDPlayer[] $spidIndexed */
-        $spidIndexed = empty($spidCollection) ? [] : array_reduce($spidCollection, $indexByLicence, []);
-
-        $rankedKeys = array_keys($rankedIndexed);
-        $spidKeys = array_keys($spidIndexed);
-
-        /** @var array<Player> $results */
-        $results = [];
-
-        foreach ($rankedKeys as $licence) {
-            if (in_array($licence, $spidKeys)) {
-                $results[] = new Player(
-                    spidPlayer: $spidIndexed[$licence],
-                    rankedPlayer: $rankedIndexed[$licence]
-                );
-
-                unset($spidIndexed[$licence]);
-            } else {
-                $results[] = new Player(
-                    spidPlayer: null,
-                    rankedPlayer: $rankedIndexed[$licence]
-                );
-            }
-
-            unset($rankedIndexed[$licence]);
-        }
-
-        if (count($spidIndexed) > 0) {
-            foreach ($spidIndexed as $player) {
-                $results[] = new Player(
-                    spidPlayer: $player,
-                    rankedPlayer: null
-                );
-            }
-        }
-
-        return $results;
     }
 }

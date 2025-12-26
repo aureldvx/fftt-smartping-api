@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace SmartpingApi\Model\Club;
 
-final readonly class Salle
+final readonly class Salle implements \Stringable
 {
     public function __construct(
         public string $nom,
@@ -25,18 +25,16 @@ final readonly class Salle
 
     public function adresseComplete(): string
     {
-        $address = "$this->nom - $this->ligneAdresse1";
+        $address = sprintf('%s - %s', $this->nom, $this->ligneAdresse1);
 
         if ($this->ligneAdresse2) {
-            $address .= " - $this->ligneAdresse2";
+            $address .= ' - ' . $this->ligneAdresse2;
         }
 
         if ($this->ligneAdresse3) {
-            $address .= " - $this->ligneAdresse3";
+            $address .= ' - ' . $this->ligneAdresse3;
         }
 
-        $address .= " - $this->codePostal $this->ville";
-
-        return $address;
+        return $address . sprintf(' - %s %s', $this->codePostal, $this->ville);
     }
 }

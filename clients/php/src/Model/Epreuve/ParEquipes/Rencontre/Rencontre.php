@@ -9,11 +9,6 @@ use SmartpingApi\Model\CanSerialize;
 use SmartpingApi\Util\DateTimeUtils;
 use SmartpingApi\Util\ValueTransformer;
 
-/**
- * Modélise le retour du call `xml_rencontre_equ`.
- *
- * @see /docs/snapshots/xml_rencontre_equ/unique.xml
- */
 final readonly class Rencontre implements CanSerialize
 {
     private int $id;
@@ -73,7 +68,7 @@ final readonly class Rencontre implements CanSerialize
         $model->idPoule = (int) $data['poule'];
         $model->isLive = (bool) $data['live'];
 
-        parse_str($data['lien'], $linkParts);
+        parse_str((string) $data['lien'], $linkParts);
 
         $model->id = (int) $linkParts['renc_id'];
         $model->parametresAccesAuDetail = [

@@ -28,7 +28,7 @@ final readonly class Organisme implements CanSerialize
         $model->libelle = $data['libelle'];
         $model->code = $data['code'];
         $model->idOrganismeParent = ValueTransformer::nullOrInt($data['idPere']);
-        $model->type = TypeOrganisme::from(mb_substr($data['code'], 0, 1));
+        $model->type = TypeOrganisme::from(mb_substr((string) $data['code'], 0, 1));
 
         return $model;
     }

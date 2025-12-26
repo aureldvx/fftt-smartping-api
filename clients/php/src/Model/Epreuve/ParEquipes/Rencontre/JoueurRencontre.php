@@ -45,4 +45,44 @@ final readonly class JoueurRencontre implements CanSerialize
 
         return $model;
     }
+
+    public function joueurA(): ?string
+    {
+        return $this->joueurA;
+    }
+
+    public function joueurB(): ?string
+    {
+        return $this->joueurB;
+    }
+
+    public function pointsOfficielsA(): ?float
+    {
+        return $this->pointsOfficielsA;
+    }
+
+    public function pointsOfficielsB(): ?float
+    {
+        return $this->pointsOfficielsB;
+    }
+
+    public function rangNationalA(): ?int
+    {
+        return $this->rangNationalA;
+    }
+
+    public function rangNationalB(): ?int
+    {
+        return $this->rangNationalB;
+    }
+
+    public function sexeA(): ?Sexe
+    {
+        return $this->sexeA;
+    }
+
+    public function sexeB(): ?Sexe
+    {
+        return $this->sexeB;
+    }
 }

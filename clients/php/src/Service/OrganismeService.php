@@ -29,14 +29,14 @@ final class OrganismeService implements OrganismeContract
     {
         return array_values(array_filter(
             $this->organismes,
-            fn (Organisme $org) => $org->type() === $orgType
+            fn (Organisme $org): bool => $org->type() === $orgType
         ));
     }
 
     /** @inheritdoc */
     public function organisme(string $code): ?Organisme
     {
-        return array_find($this->organismes, fn (Organisme $org) => $org->code() === $code);
+        return array_find($this->organismes, fn (Organisme $org): bool => $org->code() === $code);
     }
 
     /** @inheritdoc */
@@ -50,13 +50,13 @@ final class OrganismeService implements OrganismeContract
 
         return array_values(array_filter(
             $this->organismes,
-            fn (Organisme $org) => $org->idOrganismeParent() === $parentId
+            fn (Organisme $org): bool => $org->idOrganismeParent() === $parentId
         ));
     }
 
     private function remplirOrganismes(): void
     {
-        if (count($this->organismes) > 0) {
+        if ($this->organismes !== []) {
             return;
         }
 
@@ -69,7 +69,7 @@ final class OrganismeService implements OrganismeContract
                 return [Organisme::fromArray($response['organisme'])];
             }
 
-            return array_map(fn ($org) => Organisme::fromArray($org), $response['organisme'] ?? []);
+            return array_map(Organisme::fromArray(...), $response['organisme'] ?? []);
         };
 
         foreach ($orgTypes as $type) {

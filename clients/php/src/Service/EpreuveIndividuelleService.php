@@ -26,7 +26,7 @@ final readonly class EpreuveIndividuelleService implements EpreuveIndividuelleCo
             'res_division' => $divisionId,
         ]);
 
-        return array_map(fn ($item) => Groupe::fromArray($item), $response['tour'] ?? []);
+        return array_map(Groupe::fromArray(...), $response['tour'] ?? []);
     }
 
     /** @inheritdoc */
@@ -44,7 +44,7 @@ final readonly class EpreuveIndividuelleService implements EpreuveIndividuelleCo
 
         $response = $this->httpClient->fetch(API::XML_RESULT_INDIV, $params);
 
-        return array_map(fn ($item) => Partie::fromArray($item), $response['partie'] ?? []);
+        return array_map(Partie::fromArray(...), $response['partie'] ?? []);
     }
 
     /** @inheritdoc */
@@ -62,7 +62,7 @@ final readonly class EpreuveIndividuelleService implements EpreuveIndividuelleCo
 
         $response = $this->httpClient->fetch(API::XML_RESULT_INDIV, $params);
 
-        return array_map(fn ($item) => Classement::fromArray($item), $response['classement'] ?? []);
+        return array_map(Classement::fromArray(...), $response['classement'] ?? []);
     }
 
     /** @inheritdoc */
@@ -70,6 +70,6 @@ final readonly class EpreuveIndividuelleService implements EpreuveIndividuelleCo
     {
         $response = $this->httpClient->fetch(API::XML_RES_CLA, ['res_division' => $divisionId]);
 
-        return array_map(fn ($item) => Classement::fromArray($item), $response['classement'] ?? []);
+        return array_map(Classement::fromArray(...), $response['classement'] ?? []);
     }
 }

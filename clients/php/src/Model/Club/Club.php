@@ -17,7 +17,7 @@ final class Club implements CanSerialize
 
     private string $nom;
 
-    private ?Carbon $validation;
+    private ?Carbon $validation = null;
 
     private TypeClub $type;
 
@@ -57,10 +57,5 @@ final class Club implements CanSerialize
     public function type(): TypeClub
     {
         return $this->type;
-    }
-
-    public function detail(): ?DetailClub
-    {
-        return ClubAPI::getClub($this->numero);
     }
 }

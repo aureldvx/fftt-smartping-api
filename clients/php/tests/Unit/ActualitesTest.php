@@ -6,11 +6,11 @@ use SmartpingApi\Core\HttpClientMock;
 use SmartpingApi\Model\Divers\Actualite;
 use SmartpingApi\Smartping;
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->api = Smartping::create('', '', '', new HttpClientMock);
 });
 
-it('devrait récupérer les dernières actualités de la fédération', function () {
+it('devrait récupérer les dernières actualités de la fédération', function (): void {
     $actualites = $this->api->actualites->fluxActualitesFederation();
 
     expect($actualites)->toBeArray()
