@@ -10,11 +10,11 @@ return RectorConfig::configure()
         __DIR__ . '/tests',
     ])
     ->withPreparedSets(
-        deadCode: true,
         codeQuality: true,
         codingStyle: true,
         typeDeclarations: true,
         privatization: true,
         earlyReturn: true,
+        carbon: true,
     )
     ->withPhpSets();
