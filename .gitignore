@@ -1,0 +1,8 @@
+# secrets
+.env
+http-client.private.env.json
+
+# os specific
+.DS_Store
+.idea/
+.vscode/
