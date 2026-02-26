@@ -99,8 +99,6 @@ final class HttpClient extends AbstractHttpClient implements HttpClientContract
             throw HttpException::make(curl_error($ch));
         }
 
-        curl_close($ch);
-
         if (200 !== $httpCode) {
             throw HttpStatusException::make($httpCode);
         }
