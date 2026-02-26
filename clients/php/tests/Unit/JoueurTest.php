@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use SmartpingApi\Core\HttpClientMock;
+use SmartpingApi\Enum\TypeLicence;
 use SmartpingApi\Model\Joueur\DetailJoueur;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseClassement;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseSPID;
@@ -70,6 +71,16 @@ it('devrait rechercher des joueurs par leur club', function (): void {
         ->and($result)->not->toBeEmpty()
         ->and($result[0])->toBeInstanceOf(DetailJoueur::class)
         ->and($result[0]->licence())->toBe('167376');
+});
+
+it('devrait rechercher des joueurs par leur club et leur type de licence', function (): void {
+    $result = $this->api->joueur->joueursParClubEtType('', TypeLicence::COMPETITION);
+
+    expect($result)->toBeArray()
+        ->and($result)->not->toBeEmpty()
+        ->and($result[0])->toBeInstanceOf(DetailJoueur::class)
+        ->and($result[0]->licence())->toBe('167376')
+        ->and($result[0]->typeLicence())->toBe(TypeLicence::COMPETITION);
 });
 
 it('devrait rechercher des joueurs par leur numéro de licence (base classement)', function (): void {

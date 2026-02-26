@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace SmartpingApi\Contract;
 
+use SmartpingApi\Enum\TypeLicence;
 use SmartpingApi\Model\Joueur\DetailJoueur;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseClassement;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseSPID;
@@ -83,6 +84,16 @@ interface JoueurContract
      * @return array<array-key, DetailJoueur[]> Ensemble des joueurs trouvés
      */
     public function joueursParClub(string $numeroClub): array;
+
+    /**
+     * Endpoint : xml_licence_b.php
+     * ---------------------------------------------------------
+     * Cherche un ou plusieurs joueur(s) par leur numéro de club
+     * et leur type de licence.
+     *
+     * @return array<array-key, DetailJoueur[]> Ensemble des joueurs trouvés
+     */
+    public function joueursParClubEtType(string $numeroClub, TypeLicence $typeLicence): array;
 
     /**
      * Endpoint : xml_joueur.php

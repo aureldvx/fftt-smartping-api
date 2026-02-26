@@ -7,6 +7,7 @@ namespace SmartpingApi\Service;
 use SmartpingApi\Contract\JoueurContract;
 use SmartpingApi\Core\HttpClientContract;
 use SmartpingApi\Enum\API;
+use SmartpingApi\Enum\TypeLicence;
 use SmartpingApi\Model\Joueur\DetailJoueur;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseClassement;
 use SmartpingApi\Model\Joueur\DetailJoueurBaseSPID;
@@ -97,6 +98,16 @@ final readonly class JoueurService implements JoueurContract
     }
 
     /** @inheritdoc */
+    public function joueursParClubEtType(string $numeroClub, TypeLicence $typeLicence): array
+    {
+        $response = $this->httpClient->fetch(API::XML_LICENCE_B, ['club' => $numeroClub]);
+
+        $joueurs = array_map(DetailJoueur::fromArray(...), $response['licence'] ?? []);
+
+        return array_filter($joueurs, fn(DetailJoueur $joueur) => $joueur->typeLicence() === $typeLicence);
+    }
+
+    /** @inheritdoc */
     public function joueurParLicenceSurBaseClassement(string $licence): ?DetailJoueurBaseClassement
     {
         $response = $this->httpClient->fetch(API::XML_JOUEUR, ['licence' => $licence]);
@@ -141,7 +152,7 @@ final readonly class JoueurService implements JoueurContract
     /** @inheritdoc */
     public function historiquePartiesBaseSPID(string $licence): array
     {
-        $response = $this->httpClient->fetch(API::XML_PARTIE, ['licence' => $licence]);
+        $response = $this->httpClient->fetch(API::XML_PARTIE, ['numlic' => $licence]);
 
         return array_map(PartieBaseSPID::fromArray(...), $response['partie'] ?? []);
     }
